@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+.fd_tabbox {
+  width: 1024px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 599px) {
+  .fd_tabbox {
+    width: auto;
+    padding: 0 15px;
+  }
+}
+/*タブ設定
+------------------------------------------------------------------*/
+.fd_tabs {
+  border-bottom: 2px solid #00469B;
+  display: table;
+  width: 100%;
+  
+}
+.fd_tabs li {
+  display: table-cell;
+  width: 18%;
+  padding: 15px 1%;
+  color: #565E63;
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+}
+.fd_tabs li:hover,.fd_tabs li.fd_select {
+  background-color: #F2F5F7;
+  cursor: pointer;
+}
+.fd_tabs li:hover {
+  opacity: .75;
+}
+.fd_content .fd_hide {
+  display: none;
+}
+@media screen and (max-width: 599px) {
+  .fd_tabs {
+    letter-spacing: -0.5em;
+  }
+  .fd_tabs li {
+    display: inline-block;
+    letter-spacing: normal;
+    width: 47.5%;
+    border-bottom: 1px solid #ddd;
+  }
+  .fd_tabs li:nth-child(1), .fd_tabs li:nth-child(3), .fd_tabs li:nth-child(5) {
+    border-right: 1px solid #ddd;
+  }
+  
+}
+
+
+/*質問の詳細----------------------------------*/
+.fd_content {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.fd_tab h2 {
+  padding-top: 10px;
+  padding-left: .5em;
+  position: relative;
+}
+.fd_tab h2:before {
+  content:"";
+  width: 4px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  background-color: #00469B;
+}
+.fd_tab h3 {
+  font-size: 1.43em;
+  margin-bottom: .5em;
+  position: relative;
+  padding-left: 1.2em;
+}
+.fd_tab h3:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  background-color: #00469B;
+}
+h4 {
+  font-size: 1.28571429rem;
+  color: #00469B;
+  margin-bottom: .5em;
+}
+.fd_tab p {  line-height: 1.8;
+}
+
+/*質問リスト--------------------------------*/
+.fd_faq_list {
+  margin-bottom: 40px;
+}
+.fd_faq_list li {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+}
+.fd_faq_list li a {
+  display: block;
+  padding: 10px 15px;
+  color: #565E63;
+  text-decoration: none;
+}
+.fd_faq_list li a:hover {
+  background-color: #F2F5F7;
+}
+
+/*質問内容--------------------------------*/
+.fd_faq_inner {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+.fd_faq_inner dt {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: #00469B;
+}
+.fd_faq_inner dt:before {
+  width: 32px;
+  height: 32px;
+  background: url(../images/faq/icon_q.png) left center no-repeat;
+  content:"";
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+.fd_faq_inner dd {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+.fd_faq_inner dd:before {
+  width: 32px;
+  height: 32px;
+  background: url(../images/faq/icon_a.png) left center no-repeat;
+  content:"";
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+.fd_faq_inner img {
+  padding:10px 0;
+  max-width: 100%;
+  height: auto;
+}
+/*table設定
+------------------------------------------------------------------*/
+.fd_w25 {
+  width: 25%;
+}
+.fd_txt-center {
+  text-align: center;
+}
+.fd_th-color th {
+  background-color: #F5F7FA;
+}
+/*table-type1*/
+.fd_table-type1,.fd_table-type2,.fd_table-type3 {
+  width: 100%;
+  margin-bottom: 2em;
+}
+.fd_table-type1 th,.fd_table-type1 td,.fd_table-type2 th,.fd_table-type2 td {
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+/*table-type2*/
+.fd_table-type2 th {
+  text-align: left;
+  vertical-align: top;
+}
+@media screen and (max-width: 599px) {
+  .fd_table-type2 th,.fd_table-type2 td {
+    width: auto;
+    display: block;
+    
+  }
+  .fd_table-type2 th,.fd_table-type2 td {
+    margin-top:-1px;
+  }
+}
+/*table-type3*/
+.fd_table-type3 tr {
+  border-top:  1px solid #ddd;
+  border-bottom:  1px solid #ddd;
+}
+.fd_table-type3 th,.fd_table-type3 td {
+  padding: 1em 0;
+}
+.fd_table-type3 th {
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+}
+@media screen and (max-width: 599px) {
+.fd_table-type3 th,.fd_table-type3 td {
+  display: block;
+}
+  .fd_table-type3 th {
+    background-color: #F5F7FA;
+    width: auto;
+    padding: 1em;
+    font-weight: bold;
+  }
+  .fd_table-type3 td {
+    padding: 1em;
+  }
+}

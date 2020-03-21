@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+ * contact - 問い合わせ
+ */
+
+.page-contact .form-contact textarea {
+  height: 120px;
+}
+.page-contact .form-contact .btn-submit {
+  margin-top: 40px;
+}
+
+@media screen and (max-width:599px) {
+  .page-contact .form-register-permanent .input-outer {
+    float: left;
+    display: block;
+    width: 49%;
+  }
+  .page-contact .form-register-permanent .input-outer:nth-child(1) {
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width:600px) {
+  .page-contact .form-contact dl dt {
+    padding-left: 60px;
+  }
+}
+
+
+/* end */

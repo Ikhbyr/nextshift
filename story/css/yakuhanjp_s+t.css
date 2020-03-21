@@ -1,0 +1,48 @@
+/*! Type: YakuHanJPs + YakuHanJPt - Based on Noto Sans CJK JP, Yaku Han JP v3.2.0 (OFL-1.1 AND MIT) by Qrac */
+@font-face {
+  font-family: "YakuHanJPs";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/YakuHanJPs/YakuHanJPs-Regular.html");
+  src: url("../fonts/YakuHanJPs/YakuHanJPs-Regular-2.html") format("woff2"), url("../fonts/YakuHanJPs/YakuHanJPs-Regular-3.html") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJPs";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/YakuHanJPs/YakuHanJPs-Medium.html");
+  src: url("../fonts/YakuHanJPs/YakuHanJPs-Medium-2.html") format("woff2"), url("../fonts/YakuHanJPs/YakuHanJPs-Medium-3.html") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJPs";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/YakuHanJPs/YakuHanJPs-Bold.html");
+  src: url("../fonts/YakuHanJPs/YakuHanJPs-Bold-2.html") format("woff2"), url("../fonts/YakuHanJPs/YakuHanJPs-Bold-3.html") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJPt";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/YakuHanJPt/YakuHanJPt-Regular.html");
+  src: url("../fonts/YakuHanJPt/YakuHanJPt-Regular-2.html") format("woff2"), url("../fonts/YakuHanJPt/YakuHanJPt-Regular-3.html") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJPt";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/YakuHanJPt/YakuHanJPt-Medium.html");
+  src: url("../fonts/YakuHanJPt/YakuHanJPt-Medium-2.html") format("woff2"), url("../fonts/YakuHanJPt/YakuHanJPt-Medium-3.html") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJPt";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/YakuHanJPt/YakuHanJPt-Bold.html");
+  src: url("../fonts/YakuHanJPt/YakuHanJPt-Bold-2.html") format("woff2"), url("../fonts/YakuHanJPt/YakuHanJPt-Bold-3.html") format("woff");
+}

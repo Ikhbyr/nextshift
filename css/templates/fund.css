@@ -1,0 +1,833 @@
+@charset "utf-8";
+
+/*
+ * templates-fund - ファンド系ページ
+ */
+
+.templates-fund {
+  margin-bottom: 60px;
+}
+.fd-wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+@media screen and (max-width:599px) {
+.fd-wrapper {
+  width: auto;
+  /*margin: 0 15px;*/  /*osaki*/
+  }
+}
+.templates-fund .status {
+  float: left;
+  display: flex;
+  font-size: 11px;
+  padding: 2px 10px;
+  border-radius: 4px;  /*osaki*/
+  color: #fff;  /*oosaki*/
+}
+/*osaki*/
+/*.templates-fund .status:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+}*/ 
+/* ステータスアイコン: */  /*osaki*/
+/*.templates-fund .status.standby:before { background-image: linear-gradient(-180deg, #50E3C2 0%, #11C6BD 100%); }
+.templates-fund .status.keep-on:before { background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%); }
+.templates-fund .status.finish:before  { background-image: linear-gradient(-180deg, #D0011B 0%, #9E2500 100%); }
+@media screen and (max-width:599px) {
+  .templates-fund .status {
+    margin: 10px 0;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .status {
+    margin-bottom: 10px;
+  }
+}*/
+/*osaki追加変更*/
+.templates-fund .status.standby { background-color: #ccc;}
+.templates-fund .status.keep-on { background-color: #F8B62D;}
+.templates-fund .status.finish { background-color: #565E63;}
+/*----------------------------------------------*/
+
+.templates-fund .invest-type {
+  float: right;
+  display: inline-block;
+  color: #FFF;
+  font-size: 11px;
+  /*background-color: #505353;*/  /*osaki*/
+  background-color: #888;  /*osaki*/
+  border-radius: 4px;  /*osaki*/
+  padding: 2px 8px 0px;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .invest-type {
+    margin: 10px 0;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .invest-type {
+    margin-bottom: 10px;
+  }
+}
+
+.templates-fund .fund-name {
+  clear: both;
+  /*font-weight: normal;*/  /*osaki*/
+  padding: 10px 0 15px;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-name {
+    /*font-size: 18px ;*/  /*osaki*/
+    font-size: 24px;  /*osaki*/
+    font-weight: bold;  /*osaki*/
+    margin: 0 0 10px;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .fund-name {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+/*osaki 応募金額・募集金額設定追加*/
+.top-total {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 10px;
+}
+.top-total span {
+  font-size: 30px;
+  padding-left: 6px;
+}
+.top-recruiting {
+  font-size: 12px;
+  text-align: right;
+}
+@media screen and (max-width:599px) {
+.top-total span {
+  font-size: 26px;
+  padding-left: 6px;
+}
+}
+/*----------------------------------------*/
+
+.templates-fund .fund-progress .progress-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 21px;
+  /*background-color: #BDBDBD;*/  /*osaki*/
+  background-color: #ccc;  /*osaki*/
+  /*border-radius: 3px;*/  /*osaki*/
+  border-radius: 10px;  /*osaki*/
+  overflow: hidden;
+}
+.templates-fund .fund-progress .progress-bar i {
+  position: relative;
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: 3px;
+  /*background-color: #D0011B;*/  /*osaki*/
+  background-color: #F8B62D;  /*osaki*/
+}
+
+@media screen and (min-width:600px) {
+  .templates-fund .fund-outline {
+    display: flex;
+    margin-bottom: 35px;
+    position: relative;  /*osaki*/
+  }
+  .templates-fund .fund-outline .box-l {
+    width: 470px;  /*osaki*/
+    float: left;  /*osaki*/
+  }
+  .templates-fund .fund-outline .box-r {
+    width: 489px;  /*osaki*/
+    margin: 0 auto;
+    /*padding: 10px 0;*/  /*osaki*/
+    padding: 0 0 20px 0;  /*osaki*/
+    float: right;/*osaki*/;
+  }
+}
+.box-l img {
+  width: 100%;
+  height: auto;
+}
+/*osaki 利回り等の表・残り時間・詳細ボタン設定*/
+/*トップ・マイページファンドの表*/
+.details-1 {
+  width: 100%;
+}
+.details-1 td {
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+}
+.details-1 td.w33 {
+  width: 33.3%;
+}
+.details-1 td.w33 span {
+  display: block;
+  font-size: 34px;
+  font-weight: bold;
+}
+.details-1 td.w30 {
+  width: 30%;
+}
+.details-1 td.w30 span {
+  display: block;
+  font-size: 34px;
+  font-weight: bold;
+}
+.details-1 td.w20 {
+  width: 20%;
+}
+.details-1 td.w20 span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+@media screen and (max-width:599px) {
+  .details-1 td.w33 span {
+    font-size: 20px;
+  }
+  .details-1 td.w16 span {
+    font-size: 18px;
+  }
+}
+
+/*残り時間*/
+.fd-time {
+  text-align: right;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.fd-time span {
+  font-size: 20px;
+  padding-left: 6px;
+  font-weight: bold;
+}
+@media screen and (max-width:599px) {
+  .fd-time span {
+    font-size: 16px;
+  }
+}
+
+/*詳細ボタン*/
+.fd-btn-light-blue-w {
+  text-align: center;
+}
+.fd-btn-light-blue-w a {
+  display: block;
+  border: 2px solid #16BAC5;
+  color: #16BAC5;
+  border-radius: 4px;
+  padding: 8px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fd-arrow:after {
+  content: "▶";
+  padding-left: 6px;
+}
+.fd-btn-light-blue-w a:hover {
+  background-color: #16BAC5;
+  color: #fff;
+
+}
+/*----------------------------------------*/
+
+/*ファンドの詳細ページの表・投資するボタン*//*osaki追加*/
+.details-2 {
+  width: 100%;
+}
+.details-2 td {
+  width: 50%;
+  font-size: 12px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  line-height: 1.8;
+  position:relative;
+}
+.details-2 td span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  margin-top: -2px;
+}
+
+@media screen and (max-width:599px) {
+  .details-2 td {
+    padding: 8px 10px;
+    text-align: center;
+  }
+  .details-2 td span {
+    float: none;
+  }
+}
+/*投資するボタン*/
+.fd-btn-investment {
+  text-align: center;
+}
+.fd-btn-investment a {
+  display: block;
+  font-size: 22px;
+  padding: 6px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #16BAC5;
+  border-radius: 4px;
+}
+.fd-btn-investment a:hover {
+  background-color: #1799a2;
+}
+
+
+/*----------------------------------------*/
+
+/*osaki*/
+/*.templates-fund .fund-outline .details {
+  width: 100%;
+}
+.templates-fund .fund-outline .details > div {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: solid 1px #CCC;
+  text-align: center;
+}
+.templates-fund .fund-outline .details > div:nth-last-child(1) {
+  border-right: none;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-outline .details {
+    margin-bottom: 20px;
+  }
+  .templates-fund .fund-outline .details > div {
+    height: 65px;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .fund-outline .details {
+    margin: 15px 0 0;
+  }
+  .templates-fund .fund-outline .details > div {
+    height: 80px;
+  }
+}
+*/
+.templates-fund .fund-outline dl {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.templates-fund .fund-outline dl dt {
+  width: 45%;
+  margin-bottom: 10px;
+}
+.templates-fund .fund-outline dl dd {
+  width: 55%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.templates-fund .details .number.strong {
+  line-height: 1;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-outline dl dd .small {
+    font-size: 12px;
+  }
+  .templates-fund .details .number.strong {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .details .number.strong {
+    font-size: 20px;
+  }
+}
+
+/* ファンド一覧 */
+.templates-fund .fund-list {
+  /*border-top: solid 1px #9B9B9B;*/  /*osaki*/
+}
+.templates-fund .fund-list li {
+  border-bottom: solid 1px #ccc;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-list {
+   /* margin: 0 -20px;*/  /*osaki*/
+  }
+  .templates-fund .fund-list li {
+    padding: 20px;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .fund-list li {
+    /*padding: 25px 70px 20px;*/  /*osaki*/
+    padding: 25px 0 40px;
+    /*margin: 0 10px;*/  /*osaki*/
+    overflow: hidden;
+  }
+  .templates-fund .fund-list .box-l {
+    float: left;
+    /*width: 416px;*/  /*osaki*/
+    width: 470px;
+  }
+  .templates-fund .fund-list .box-r {
+    float: right;
+    /*width: 388px;*/  /*osaki*/
+    width: 489px;  /*osaki*/
+  }
+}
+
+/*osaki*/
+/*.templates-fund .details {
+  width: 100%;
+  background-color: #FFF;
+  border: solid 1px #E5E5E5;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.templates-fund .details th,
+.templates-fund .details td {
+  font-size: 12px;
+  vertical-align: middle;
+  border: solid 1px #E5E5E5;
+  padding: 10px 10px 7px;
+}
+.templates-fund .details th {
+  width: 150px;
+  padding-left: 30px;
+  background-color: #F7F7F7;
+  background-position: 10px 13px;
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+.templates-fund .details .row_amount-offer th {
+  background-image: url("../../images/fund/icons_money.png");
+}
+.templates-fund .details .row_yeild th {
+  background-image: url("../../images/fund/icons_yield.png");
+}
+.templates-fund .details .row_goal th {
+  background-image: url("../../images/fund/icons_goal.png");
+}
+.templates-fund .details .row_min_amount th {
+  background-image: url("../../images/fund/icons_min_amout.png");
+}
+.templates-fund .details .row_min_unit th {
+  background-image: url("../../images/fund/icons_min_unit.png");
+}
+.templates-fund .details .row_time th {
+  background-image: url("../../images/fund/icons_time.png");
+}
+.templates-fund .details .row_property th {
+  background-image: url("../../images/fund/icons_property.png");
+}
+.templates-fund .details .row_guarantee th {
+  background-image: url("../../images/fund/icons_guarantee.png");
+}
+.templates-fund .details td {
+  text-align: right;
+  font-weight: bold;
+}*/
+.templates-fund .details .label {
+  display: block;
+  line-height: 1;
+}
+.templates-fund .details .label.heigh2 {
+  height: 2em;
+}
+.templates-fund .details .number {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+.templates-fund .details .condition {
+  display: block;
+  width: 67px;
+  height: 21px;
+  color: #ED6103;
+  border: solid 1px #ED6103;
+  box-sizing: border-box;
+  margin: 5px auto;
+}
+
+.templates-fund .fund-progress {
+  position: relative;
+}
+.templates-fund .fund-progress .percentage-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  color: #FFF;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 2em;
+  z-index: 1;
+}
+.templates-fund .fund-progress .progress-bar {
+  width: 100%;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-list .fund-progress {
+    margin: 10px 0;
+  }
+}
+@media screen and (min-width:600px) {
+  .templates-fund .fund-list .fund-progress {
+    margin: 7px 0;
+  }
+  .templates-fund .fund-list .box-r > .c_btn {
+    width: 100%;
+  }
+}
+
+/* ファンド詳細 */
+
+.templates-fund .fund-outline .status {
+  margin-bottom: 10px;
+}
+.templates-fund .fund-outline .fund-main-pict {
+  margin-bottom: 10px;
+}
+.templates-fund .fund-outline .condition-block dl dt:after {
+  content: "：";
+  float: right;
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-outline .condition-block .fund-progress {
+    margin-bottom: 20px;
+  }
+}
+
+.templates-fund .fund-outline .fund-progress {
+  /*margin: 7px 0;*/
+  margin: 20px 0 15px 0;
+}
+
+@media screen and (min-width:600px) {
+  .templates-fund .btn_invest {
+    margin-bottom: 30px;
+  }
+  .templates-fund .fund-outline .fund-progress {  /*osaki*/
+  margin: 0 0 15px 0;
+  }
+}
+/*ファンド一覧追加分
+---------------------------------------------------------------------*//*osaki*/
+  /*ファンド一覧共通部分*/
+/*.templates-fund .fund-list .fd_list-box { border: none;}*/
+.templates-fund .fund-list .fd_list-box { padding: 0;}
+.fd_list-details {
+  display: inline-block;
+  letter-spacing: normal;
+  vertical-align: top;
+}
+.fd_list-details .fd_list-details-inner {
+  padding: 10px;
+ position: relative;
+}
+/*リスト写真設定*/
+.fd_list-details-inner .fd_list-detail-img {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  float: left;
+}
+.fd_list-details-inner .fd_list-detail-img img {
+  width: 100%;
+  height: 100%;
+}
+.fd_list-details-inner .fd_list-name {
+  float: left;
+  padding-left: 10px;
+}
+
+@media screen and (min-width:600px) {
+.fd_list-details-inner .fd_list-name {
+  width: 140px;
+}
+}
+@media screen and (max-width:599px) {
+.fd_list-details-inner .fd_list-name {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  padding-right: 10px;
+  }
+}
+.fd_list-details-inner {
+  overflow: hidden;
+}
+.fd_list-box {
+  letter-spacing: -.5em;
+}
+.templates-fund .fd_list-box .fund-name {
+  font-size: 14px;
+}
+.fund-list .fd_list-details:nth-child(2),.fund-list .fd_list-details:nth-child(3),.fund-list .fd_list-details:nth-child(4),.fund-list .fd_list-details:nth-child(5),.fund-list .fd_list-details:nth-child(6),.fund-list .fd_list-details:nth-child(7),.fund-list .fd_list-details:nth-child(8),.fund-list .fd_list-details:nth-child(9) {
+  text-align: center;
+}
+.fund-list .fd_list-details:nth-child(2),.fund-list .fd_list-details:nth-child(3),.fund-list .fd_list-details:nth-child(4) {
+  font-weight: bold;
+}
+.fd_gray {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ccc;
+}
+
+@media screen and (min-width:600px) {
+  /*リストの見出し*/
+  .fd_list-midasi {
+    margin: 60px auto 0;
+  }
+  .fd_list-midasi {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -.5em;
+  }
+  .fd_list-midasi .fd_list-details {
+    vertical-align: bottom;
+    padding: 0 0 15px 0;
+  }
+  .fd_list-midasi .fd_list-details:nth-child(1) { width: 290px;}
+  .fd_list-midasi .fd_list-details:nth-child(2) { width: 140px;}
+  .fd_list-midasi .fd_list-details:nth-child(3) { width: 70px;}
+  .fd_list-midasi .fd_list-details:nth-child(4) { width: 65px;}
+  .fd_list-midasi .fd_list-details:nth-child(5) { width: 65px;}
+  .fd_list-midasi .fd_list-details:nth-child(6) { width: 90px;}
+  .fd_list-midasi .fd_list-details:nth-child(7),.fd_list-midasi .fd_list-details:nth-child(8) { width: 84px;}
+  .fd_list-midasi .fd_list-details:nth-child(9) { width: 104px;}
+
+  /* リスト詳細
+  ------------------------------------------------*/
+  /*padding削除*/
+  /*リストに線*/
+  .fd_list-box {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+  .fd_list-box:first-child {
+    border-top: 1px solid #ccc;
+  }
+  .fd_list-details:nth-child(1) { width: 290px;}
+  .fd_list-details:nth-child(2) { width: 140px;}
+  .fd_list-details:nth-child(3) { width: 70px;}
+  .fd_list-details:nth-child(4) { width: 65px;}
+  .fd_list-details:nth-child(5) { width: 65px;}
+  .fd_list-details:nth-child(6) { width: 90px;}
+  .fd_list-details:nth-child(7),.fd_list-details:nth-child(8) {width: 84px;}
+  .fd_list-details:nth-child(9) { width: 106px;}
+  .fund-list .fd_list-details:nth-child(1),.fund-list .fd_list-details:nth-child(2),.fund-list .fd_list-details:nth-child(3),.fund-list .fd_list-details:nth-child(4),.fund-list .fd_list-details:nth-child(5),.fund-list .fd_list-details:nth-child(6),.fund-list .fd_list-details:nth-child(7),.fund-list .fd_list-details:nth-child(8) {
+    border-right: 1px solid #ccc;
+    height: 140px;
+  }
+  .fd_list-details:nth-child(2) .fd_list-details-inner { padding-top: 30px;}
+  .fd_list-details:nth-child(3) .fd_list-details-inner,.fd_list-details:nth-child(4) .fd_list-details-inner,.fd_list-details:nth-child(5) .fd_list-details-inner,.fd_list-details:nth-child(6) .fd_list-details-inner,.fd_list-details:nth-child(7) .fd_list-details-inner,.fd_list-details:nth-child(8) .fd_list-details-inner {
+    padding-top: 55px;
+  }
+  .fd_list-details:nth-child(9) .fd_list-details-inner { padding-top: 54px;}
+
+}
+@media screen and (max-width:599px) {
+  .templates-fund .fund-list .fd_list-box {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  .fd_list-midasi { display: none;}
+  .fund-list .fd_list-details:nth-child(1),.fund-list .fd_list-details:nth-child(2) {
+    width: 100%;
+    display: block;
+  }
+  .fund-list .fd_list-details:nth-child(3),.fund-list .fd_list-details:nth-child(4) { width: 25%;}
+  .fund-list .fd_list-details:nth-child(5) { width: 20%;}
+  .fund-list .fd_list-details:nth-child(6) { width: 30%;}
+  .fund-list .fd_list-details:nth-child(7),.fund-list .fd_list-details:nth-child(8) { width: 50%;}
+  .fund-list .fd_list-details:nth-child(9) { width: 100%;}
+/*下線を追加*/
+ .fund-list .fd_list-details:nth-child(1),.fund-list .fd_list-details:nth-child(2),.fund-list .fd_list-details:nth-child(3),.fund-list .fd_list-details:nth-child(4),.fund-list .fd_list-details:nth-child(5),.fund-list .fd_list-details:nth-child(6),.fund-list .fd_list-details:nth-child(7),.fund-list .fd_list-details:nth-child(8) {
+    border-bottom: 1px solid #ccc;
+}
+   .fund-list .fd_list-details:nth-child(4), .fund-list .fd_list-details:nth-child(5), .fund-list .fd_list-details:nth-child(6), .fund-list .fd_list-details:nth-child(8) {
+     border-left: 1px solid #ccc;
+  }
+  .fund-list .fd_list-details:nth-child(3),.fund-list .fd_list-details:nth-child(4),.fund-list .fd_list-details:nth-child(5),.fund-list .fd_list-details:nth-child(6),.fund-list .fd_list-details:nth-child(7),.fund-list .fd_list-details:nth-child(8) {
+    min-height: 63px;
+  }
+}
+
+.fd_list-details-inner .status.standby {
+  display: inherit;
+  float: none;
+}
+.templates-fund  .fd_list-box .invest-type {
+  float: none;
+}
+/*表示の切り替え*/
+@media screen and (min-width:600px) {
+  .fd_hide-sp { display: none;}
+  .fd_hide-pc { display: block;}
+}
+@media screen and (max-width:599px) {
+  /*表見出し表示設定*/
+  .fd_hide-sp {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .fd_hide-pc { display: none;}
+}
+/*----------------------------------------*/
+/*施工事例一覧ページャー設定
+------------------------------------------*/
+.page_list_area {
+  margin: 40px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+.page_list_area .currpage_in_page_list {
+  padding: 10px 15px;
+  border: 1px #ccc solid;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ccc;
+  margin: 0 4px;
+}
+
+.page_list_area a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #565e63;
+  margin: 0 4px;
+}
+
+.page_list_area a:hover {
+  background-color: #ededed;
+}
+
+
+/* 2019.02.14 */
+.tbl-gsp01 {
+  width: 100%;
+}
+.tbl-gsp01 th {
+  /*background: #808080;*/
+  border: solid 1px #ccc;
+  /*color: #FFFFFF;*/
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+}
+.tbl-gsp01 td {
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+}
+.tbl-gsp01 td.w30 {
+  width: 30%;
+}
+.tbl-gsp01 td.w30 span {
+  display: block;
+  font-size: 34px;
+  font-weight: bold;
+}
+.tbl-gsp01 td.w20 {
+  width: 20%;
+}
+.tbl-gsp01 td.w20 span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 767px) {
+  .tbl-gsp01 {
+    border-collapse: separate;
+    border-spacing: 0  20px;
+  }
+  .tbl-gsp01 thead {
+    display: none;
+  }
+  .tbl-gsp01 tr {
+    background-color: #f6f6f6;
+  }
+  .tbl-gsp01 td {
+    border: none;
+    display: inline;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dddddd;
+    padding: 2px;
+  }
+ .tbl-gsp01 td.col-6 {
+    float: left;
+    width: 50%;
+  }
+  .tbl-gsp01 td.txt-right {
+    text-align: right;
+  }
+  .tbl-gsp01 td:before {
+    content: attr(data-title) " ";
+  }
+  .tbl-gsp01 .clear {
+    clear: both;
+  }
+  .tbl-gsp01 td.w30 span {
+    display: block;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  .tbl-gsp01 td.w20 span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .scroll {
+    overflow-x: auto;
+  }
+  .tbl-gsp02 {
+    min-width: 599px;
+    margin: 0 10px 50px;
+    border-collapse: collapse;
+    border:0px solid #333;
+  }
+  .tbl-gsp02 th {
+    border-collapse: collapse;
+    border:0px;
+  }
+  .tbl-gsp02 td {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    border-collapse: collapse;
+    border:0px;
+  }
+}
+
+/* end */

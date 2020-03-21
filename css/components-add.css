@@ -1,0 +1,25 @@
+.c_input-form.has-error .c_selectbox, .c_input-form.has-error .c_checkbox, .c_selectbox.has-error select, .c_input-form.has-error .c_textarea, .agreement-area.has-error .c_checkbox {
+  background-color: #FFE0E0;
+}
+
+.agreement-area .message-error {
+  display: block;
+  text-align: left;
+  color: #FF001B;
+  font-size: 12px;
+  padding-left: 32px;
+  background: url("../images/common/icon_alert.png") no-repeat 0 center;
+  background-size: 13px 13px;
+  background-position: 10px;
+  transition: all .5s ease;
+  visibility: hidden;
+  max-height: 0;
+  opacity: 0;
+}
+.agreement-area.has-error .message-error {
+  visibility: visible;
+  max-height: 3em;
+  opacity: 1;
+  transition: all .5s ease-in;
+}
+

@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+@media screen and (max-width:599px) {
+
+  .visible-pc { display: none!important; }
+
+  .flexible-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* components.css 調整 */
+  .c_btn {
+    height: 42px;
+  }
+  .c_btn.sp-size--xs {
+    height: 30px;
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .c_btn.sp-default {
+    display: flex;
+    margin: 0 auto;
+    min-width: 80%;
+    width:  80%;
+    height: 42px;
+  }
+
+  .c_textfield,
+  .c_selectbox {
+    width: 100%;
+  }
+  .c_textfield.size--xs { width: 24%; }
+  .c_selectbox.size--xs { width: 24%; }
+  .c_selectbox.size--s  { width: 50%; }
+  .c_textfield.sp-flexible { width: 100%; }
+  .c_selectbox.sp-flexible { width: 100%; }
+
+  .c_selectbox select          { width: 115%; }
+  .c_selectbox.size--xs select { width: 150%; }
+  .c_selectbox.size--s select  { width: 150%; }
+
+
+  .c_selectbox {
+    padding-right: 20px;
+  }
+  .c_selectbox:before {
+    right: 5px;
+  }
+
+  .c_checkbox > span {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .c_steps {
+    margin-bottom: 30px;
+  }
+  .c_steps li {
+    font-size: 12px;
+  }
+
+  .c_input-form .message-attention {
+    text-align: right;
+  }
+  .c_input-form .c_textfield,
+  .c_input-form .c_selectbox {
+    margin-bottom: 5px;
+  }
+
+  .c_attention-area {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .c_form dl dt {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .c_form dl dd {
+    width: 100%;
+  }
+  .c_form dl dt:nth-of-type(n+2) {
+    padding-top: 20px;
+  }
+  .c_form dl.horizontal {
+    align-items: center;
+  }
+
+  /* text.css */
+  .ttl-h1 {
+    padding-top: 10px;
+  }
+
+}
+
+/* end */

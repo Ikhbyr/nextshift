@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@media screen and (min-width:600px) {
+
+  .visible-sp { display: none!important; }
+
+  /* common.css 調整 */
+  html {
+    min-width: 1024px;
+  }
+
+  /* components.css 調整 */
+  .c_btn {
+    min-width: 165px;
+    height: 52px;
+  }
+
+  .c_textfield,
+  .c_selectbox {
+    width: 300px;
+  }
+  .c_selectbox select {
+    width: 330px;
+  }
+  .c_textfield {
+    margin-right: 10px;
+  }
+  .c_textfield.size--xs { width:  80px; }
+  .c_textfield.size--s  { width: 150px; }
+  .c_textfield.size--m  { width: 200px; }
+  .c_textfield.size--l  { width: 400px; }
+  .c_selectbox.size--xs { width: 100px; }
+  .c_selectbox.size--xs select { width: 120px; }
+  .c_selectbox.size--s  { width: 140px; }
+  .c_selectbox.size--s  select { width: 160px; }
+  .c_selectbox.size--m  { width: 200px; }
+  .c_selectbox.size--m  select { width: 220px; }
+
+  .c_selectbox {
+    padding-right: 30px;
+  }
+  .c_selectbox:before {
+    right: 10px;
+  }
+
+  .c_checkbox > span {
+    vertical-align: middle;
+  }
+
+  .c_steps {
+    width: 670px;
+    margin-bottom: 40px;
+  }
+  .c_steps > ul {
+    padding: 0 12.5%;
+  }
+
+  .c_attention-area {
+    padding: 20px 70px;
+    margin: 35px auto 10px;
+  }
+
+  .c_form dl dt {
+    width: 40%;
+    box-sizing: border-box;
+    margin-top: 0.65em;
+    padding-right: 10px;
+  }
+  .c_form dl dd {
+    width: 60%;
+  }
+  .c_form dl dt:nth-of-type(n+2),
+  .c_form dl dd:nth-of-type(n+2) {
+    padding-top: 10px;
+  }
+  .c_form dl.name span.label.kanji {
+    margin-left: 1em;
+  }
+}
+
+/* end */

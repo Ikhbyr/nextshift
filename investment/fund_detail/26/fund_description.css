@@ -1,0 +1,420 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "メイリオ" , Meiryo , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  font-size: 62.5% !important;
+}
+
+.current {
+  border-collapse: collapse;
+  margin: 0 auto 20px;
+  max-width: 980px;
+  width: 100%;
+  line-height: 35px;
+}
+.current.dl {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+.current.dl.dt {
+  display: table-cell;
+  overflow: hidden;
+  padding: 10px 0;
+  border-top: solid 1px;
+  width: 40%;
+  vertical-align: middle;
+}
+.current.dl.dd {
+  display: table-cell;
+  padding: 10px 0;
+  border-top: solid 1px #efefef;
+  width: 60%;
+  vertical-align: middle;
+}
+.select1 {
+  margin-bottom: 40px;
+}
+.mr10{
+  margin-right: 10px !important;
+}
+.mb10{
+  margin-bottom: 10px !important;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+.mb40 {
+  margin-bottom: 40px !important;
+}
+.mb50{
+  margin-bottom: 50px !important;
+}
+br.hidden-pc {
+  display: none;
+}
+nav.tab-box {
+  max-width: 980px;
+  margin-bottom: 65px;
+}
+@media screen and (max-width: 599px) {
+  br.hidden-pc {
+    display: inherit;
+  }
+  nav.tab-box {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 439px) {
+  .mb20L {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 359px) {
+  .mb20L {
+    font-size: 0.9rem;
+  }
+}
+/* HTML内に記述のstyleに追加 */
+.tab-box > ul li a {
+  height: 50px;
+}
+
+
+.tab-content {
+  width: 100%;
+  text-align: left;
+  min-height: 300px;
+  padding-bottom: 100px;
+}
+.tab-content div, .tab-content p, .tab-content a,
+.tab-content dl, .tab-content dt, .tab-content dd,
+.tab-content ol, .tab-content ul, .tab-content li,
+.tab-content article, .tab-content aside {
+  font-size: 1.4rem;
+  line-height: 1.75;
+  letter-spacing: 0.04rem;
+}
+.tab-content .content {
+  padding: 0 5px;
+}
+.tab-content p, .tab-content dl, .tab-content ul {
+  margin-bottom: 30px;
+}
+.tab-content strong {
+  font-weight: bold;
+  color: #5a8cbe;
+}
+.tab-content small {
+  font-size: 1.1rem;
+}
+/* Tab-1以外はコンテンツ幅：700px */
+.tab-content.tab2 section, .tab-content.tab3 section, .tab-content.tab4 section {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 599px) {
+  .tab-content {
+    padding-bottom: 10px;
+  }
+  .tab-content p, .tab-content dl, .tab-content ul {
+    margin-bottom: 20px;
+  }
+  .tab-content small {
+    font-size: 1rem;
+  }
+  .tab-content.tab2 section, .tab-content.tab3 section, .tab-content.tab4 section {
+    width: 100%;
+  }
+}
+
+
+/*------ タイトル設定 ------*/
+.tab-content h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #00469b;
+  margin-bottom: 50px;
+}
+.tab-content h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.75;
+  margin-top: 70px;
+  margin-bottom: 35px;
+  padding-left: 16px;
+  position: relative;
+}
+.tab-content h3 + p + h4 {
+  margin-top: 60px;
+}
+.tab-content h4::before {
+  display: block;
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #00469b;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+}
+
+@media screen and (max-width: 599px) {
+  .tab-content h3 {
+    font-size: 2rem;
+    letter-spacing: 0.06em;
+    margin-bottom: 40px;
+  }
+  .tab-content h4 {
+    font-size: 1.6rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .tab-content h3 + p + h4 {
+    margin-top: 40px;
+  }
+}
+
+
+/*------ Tab-1のテーブル設定 ------*/
+.form-std dl {
+  border-bottom: solid 1px #efefef;
+}
+.form-std dl small {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.form-std dl dt {
+  width: 20%;
+  border-top: solid 1px #efefef;
+  margin: 0;
+  padding: 13px 0;
+  padding-left: 10px;
+  float: left;
+  clear: left;
+}
+.form-std dl dd {
+  border-top: solid 1px #efefef;
+  margin: 0 0 0 20%;
+  padding: 13px 0;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 599px) {
+  .form-std dl dt {
+    float: inherit;
+    width: 100%;
+    padding: 13px 5px 4px;
+    font-weight: bold;
+  }
+  .form-std dl dd {
+    border-top: none;
+    margin: 0;
+    padding: 0 5px 13px;
+  }
+}
+
+
+/*------ 画像サイズ・画像キャプション設定 ------*/
+.img-responsive {
+  margin: 0;
+  width: 100%;
+}
+.img-optimize {
+  margin: 0;
+  max-width: 100%;
+}
+.img-box-lg {
+  width: 100%;
+  margin: 0 auto;
+}
+.img-box-md {
+  width: 70%;
+  margin: 0 auto;
+}
+.img-box-sm {
+  width: 49.4%;
+  margin: 0 auto;
+}
+.img-box-lg img, .img-box-md img, .img-box-sm img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.img-box-sm-float {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.img-box-sm-float li {
+  width: 49.4%;
+  margin-bottom: 10px;
+}
+span.figure-caption {
+  font-size: 1.1rem;
+  display: block;
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 599px) {
+  .img-box-md, .img-box-sm {
+    width: 100%;
+  }
+  .img-box-sm-float {
+    display: block;
+  }
+  .img-box-sm-float li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  span.figure-caption {
+    font-size: 1rem;
+  }
+}
+
+
+/*------ 項目コンテンツ ------*/
+/* 基本項目 */
+dl.list-box {
+  margin-bottom: 30px;
+  border-bottom: solid 1px #5a8cbe;
+}
+dl.list-box dt {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #00469b;
+  border-top: solid 1px #5a8cbe;
+  padding-top: 20px;
+}
+dl.list-box dd {
+  margin-bottom: 20px;
+}
+/* 参考文献 */
+.content-box {
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-top: solid 1px #dfdfdf;
+  padding-top: 30px;
+}
+.content-box h5 {
+  font-size: 1.4rem;
+}
+.content-box ul li {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+.content-box ul li:after {
+  display: inline-block;
+  content: "";
+  background-image: url(../../../images/common/icon_blank.png);
+  background-size: contain;
+  width: 11px;
+  height: 11px;
+  vertical-align: baseline;
+  margin-left: 8px;
+  opacity: 0.5;
+}
+.content-box ul li a {
+  font-size: 1.3rem;
+  line-height: 1.75;
+  color: #565E63;
+  text-decoration: none;
+}
+.content-box ul li a:hover {
+  text-decoration: underline;
+}
+.content-box ul li span {
+  font-size: 1.1rem;
+  padding-left: 6px;
+  color: #aaa;
+}
+/* 借り手のストーリー */
+.story {
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: #f0f3f6;
+}
+.story li {
+  margin-bottom: 30px;
+}
+.story li:last-child {
+  margin-bottom: 0;
+}
+.story li small {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+.story li.story-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.75;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 599px) {
+  dl.list-box {
+    margin-bottom: 20px;
+  }
+  dl.list-box dt {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  dl.list-box dd {
+    margin-bottom: 25px;
+  }
+  .content-box h5 {
+    font-size: 1.3rem;
+  }
+  .content-box ul li:after {
+    width: 10px;
+    height: 10px;
+  }
+  .content-box ul li a {
+    font-size: 1.2rem;
+    line-height: 1.75;
+  }
+  .content-box ul li span {
+    font-size: 1rem;
+  }
+  .story {
+    padding: 20px;
+  }
+  .story li {
+    margin-bottom: 20px;
+  }
+  .story li.story-title {
+    font-size: 1.6rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}

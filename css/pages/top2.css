@@ -1,0 +1,407 @@
+@charset "utf-8";
+
+/*ボタン設定
+----------------------------------------------------*/
+/*水色のボタン*/
+.fd-btn-light-blue {
+  background-color: #16BAC5;
+  border-radius: 4px;
+}
+.fd-btn-light-blue a {
+  display: block;
+  font-size: 22px;
+  padding: 6px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.fd-btn-light-blue:hover {
+  background-color: #1799a2;
+
+}
+/*青色のボタン*/
+.fd-btn-blue {
+  display: block;
+  width: auto;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.fd-btn-blue a {
+  font-size: 16px;
+  padding: 10px 80px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #00469B;
+}
+.fd-btn-blue a:hover {
+  opacity: 0.85;
+
+}
+@media screen and (max-width:599px) {
+  .fd-btn-blue {
+    padding: 0 15px;
+  }
+  .fd-btn-blue a {
+    display: block;
+    padding: 10px 20px;
+  }
+}
+/*オレンジのボタン*/
+.fd-btn-orange {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+.fd-btn-orange a {
+  font-size: 24px;
+  padding: 15px 80px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #F8B62D;
+}
+.fd-btn-orange a:hover {
+  opacity: 0.85;
+
+}
+@media screen and (max-width:599px) {
+  .fd-btn-orange {
+    padding: 0 15px;
+  }
+  .fd-btn-orange a {
+    display: block;
+    padding: 10px 20px;
+  }
+}
+.mb-6 {
+  margin-bottom: 6em;
+}
+/*見出し設定
+----------------------------------------------------*/
+.ttl-top1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.ttl-top1 span {
+  font-size: 18px;
+  font-weight: normal;
+}
+.ttl-top2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00469b;
+  font-weight: bold;
+}
+.ttl-top2 span {
+  font-weight: normal;
+}
+.ttl-top3 {
+  font-size: 20px;
+}
+.ttl-top4 {
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-left: .5em;
+  position: relative;
+}
+.ttl-top4:before {
+  content:"";
+  width: 4px;
+  height: 26px;
+  position: absolute;
+  left: 0;
+  background-color: #00469B;
+}
+@media screen and (max-width:599px) {
+  .start-guide-contents .ttl-top3 {
+    padding-left: 130px;
+    min-height: 3em;
+  }
+}
+/*総額・分配額・ユーザー登録数設定
+----------------------------------------------------*/
+.fd-service-status {
+  width: 100%;
+  background-color: #00469B;
+  display: table;
+}
+.fd-service-money,.fd-service-member {
+  display: table-cell;
+  letter-spacing: -.5em;
+}
+.fd-service-status p {
+  color: #fff;
+  padding: 14px 15px;
+  margin: 0;
+  letter-spacing: normal;
+}
+.fd-service-total {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.fd-service-sharing {
+  display: inline-block;
+  width: 50%;;
+  text-align: right;
+}
+.fd-service-status span {
+  padding-left: 6px;
+}
+@media screen and (min-width:600px) {
+  .fd-service-member {
+    display: table-cell;
+    width: 100px;
+    white-space: nowrap;
+    background-color: #002D6D;
+    text-align: right;
+  }
+}
+@media screen and (max-width:599px) {
+  .fd-service-status,.fd-service-money,.fd-service-member {
+    display: block;
+  }
+  .fd-service-status p {
+    padding: 7px 15px;
+  }
+  .fd-service-total {font-size: 14px;}
+  .fd-service-sharing {font-size: 12px;}
+  .fd-service-member {
+    display: block;
+    font-size: 12px;
+    background-color: #002D6D;
+    text-align: right;
+  }
+}
+  
+/*スライダー設定
+----------------------------------------------------*/
+.fd-slider li {
+  height: 450px;
+  overflow: hidden;
+}
+.fd-slide-img-1 {  background: url(../../images/top/main-slider-1.jpg) left center no-repeat;}
+.fd-slide-img-2 {  background: url(../../images/top/main-slider-2.jpg) center top no-repeat;}
+.fd-slide-img-3 {  background: url(../../images/top/main-slider-3.jpg) left center no-repeat;}
+.fd-slide-img-1,.fd-slide-img-2,.fd-slide-img-3 {  background-size: cover;}
+
+/*スライダーの中のリンクボックス*/
+.fd-slide-box {
+  width: 980px;
+  margin: 55px auto 0;
+  color: #fff;
+}
+.fd-slide-link {
+  width: 520px;
+  padding: 25px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10000;
+}
+.fd-link-tittle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+.fd-img-center {text-align: center;}
+.fd-img-center img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width:599px) {
+  .fd-slide-box {
+    width: auto;
+    margin: 0 30px;
+  }
+  .fd-slide-link {
+    width: auto;
+    padding: 15px;
+  }
+  .fd-link-tittle {
+    font-size: 26px;
+  }
+  .fd-btn-light-blue a {
+    font-size: 18px;
+  }
+  .fd-slider li {
+    height: 380px;
+  }
+
+}
+
+/*社会的インパクト投資とは
+----------------------------------------------------*/
+#impact-fund-top {
+  background-color: #EBF4F4;
+  padding: 30px 0 10px;
+  margin-bottom: 80px;
+}
+.top-wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+.row-top {
+  letter-spacing: -.5em;
+  margin-left: -12.5px;
+  margin-right: -12.5px;
+  margin-bottom: 60px;
+}
+.col-6 {
+  letter-spacing: normal;
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33333%;
+}
+.inner {
+  min-height: 200px;
+  background-color: #fff;
+  margin: 0 12.5px;
+  padding: 15px;
+}
+.top-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width:599px) {
+  .top-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .row-top {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .col-6 {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .inner {
+    height: auto;
+  }
+}
+/*スタートアップガイド
+----------------------------------------------------*/
+.start-guide-contents {
+  width: 980px;
+  margin: 0 auto 15px;
+  letter-spacing: -.5em;
+  padding-bottom: 57px;
+  background: url(../../images/top/icon-guide01.png) top left no-repeat;
+  position: relative;
+}
+.start-guide-contents:after {
+  content:"";
+  width: 100%;
+  height: 22px;
+  background: url(../../images/top/guide-line.png) bottom center no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.start-guide-txt {
+  letter-spacing: normal;
+  display: inline-block;
+  width: 64%;
+  padding-left: 130px;
+  vertical-align: top;
+}
+.start-guide-contents:nth-child(2) {  background-image: url(../../images/top/icon-guide02.png);}
+.start-guide-contents:nth-child(3) {  background-image: url(../../images/top/icon-guide03.png);}
+.start-guide-contents:nth-child(4) {  background-image: url(../../images/top/icon-guide04.png);}
+.start-guide-contents:nth-child(5) {  background-image: url(../../images/top/icon-guide05.png);}
+.start-guide-contents:nth-child(6) {  background-image: url(../../images/top/icon-guide06.png);}
+.start-guide-img {
+  letter-spacing: normal;
+  display: inline-block;
+  text-align: center;
+  width: 36%;
+}
+.start-guide-img img {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width:599px) {
+  .start-guide-contents {
+    width: auto;
+    margin: 0 15px 30px;
+  background: url(../../images/top/icon-guide-sp01.png) top left no-repeat;
+}
+  .start-guide-contents:after {
+    left: auto;
+  }
+.start-guide-contents:nth-child(2) {  background-image: url(../../images/top/icon-guide-sp02.png);}
+.start-guide-contents:nth-child(3) {  background-image: url(../../images/top/icon-guide-sp03.png);}
+.start-guide-contents:nth-child(4) {  background-image: url(../../images/top/icon-guide-sp04.png);}
+.start-guide-contents:nth-child(5) {  background-image: url(../../images/top/icon-guide-sp05.png);}
+.start-guide-contents:nth-child(6) {  background-image: url(../../images/top/icon-guide-sp06.png);}
+  .start-guide-txt {
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+  .start-guide-img {
+    display: block;
+    width: 100%;
+  }
+}
+/*facebook
+----------------------------------------------------*/
+.fd-facebook {
+  max-width: 500px;
+  margin: 30px auto;
+}
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget iframe[style]{
+  width: 100% !important;
+}
+
+/*ページ内リンク
+----------------------------------------------------*/
+.in-page-link {
+  padding-top: 60px;
+}
+#top-latest-fund-list,#impact-fund-top,#start-guide-top {
+  margin-top: -60px;
+  padding-top: 60px;
+}
+
+/* x方向にスクロール表示サポート */
+.contents {
+  overflow-x: auto; /* x方向にスクロール表示 */
+  -webkit-overflow-scrolling: touch; /* スマホでスクロールをスムーズな動きにする */
+  position: relative;
+}
+.contents:after {
+  content:"＞"; /* 矢印 */
+  position: absolute;
+  right:50px; /* 初期位置 */
+  font-size:80px; /* 大きさ */
+  margin-top: -40px;
+  top:50%;
+  opacity: 0; /* 透明度100%で実質非表示 */
+}
+.contents.show:after {
+   opacity: 0.2; /* 透明度の変化で表示させる */
+   transition: .8s; /* アニメーション */
+   right:5px; /* 移動 */
+}
+.contents.del:after { /* 矢印を隠す */
+   display: none;
+}

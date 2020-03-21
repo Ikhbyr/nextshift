@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*
+ * fund - ファンドページ
+ */
+
+/* ファンド一覧 */
+.fund-filter .c_selectbox {
+  margin-right: 10px;
+  border-radius: 4px;  /*osaki*/
+}
+.fund-filter button.c_btn {
+  /*height: 34px;*/
+  background-color: #00469b;
+  height: 36px;
+  border-radius: 4px;
+}
+.fund-filter button.c_btn:hover {
+  opacity: .85;
+}
+@media screen and (max-width:599px) {
+  .fund-filter {
+    margin-bottom: 20px;
+  }
+  .fund-filter form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .fund-filter .label,
+  .fund-filter .c_selectbox {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .fund-filter .label {
+
+  }
+}
+@media screen and (min-width:600px) {
+  .fund-filter {
+    /*text-align: right;*/  /*osaki*/
+    text-align: center;  /*osaki*/
+    margin-bottom: 10px;
+  }
+  .fund-filter button.c_btn {
+    vertical-align: top;
+    margin: 0;
+  }
+}
+
+/* ファンド詳細 */
+
+.page-fund .fund-detail {
+  background: #F7F7F7;
+  border: 1px solid #979797;
+  border-radius: 10px 10px 0 0;
+}
+.page-fund .fund-detail .fund-section-title {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  background-color: #565E63;
+  padding: 0 40px;
+  border: solid 1px #979797;
+  margin: -1px;
+}
+@media screen and (max-width:599px) {
+  .page-fund .fund-detail .fund-section-title {
+    height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .page-fund .fund-detail .inner {
+    margin: 10px;
+  }
+  .page-fund .fund-detail .inner p {
+    overflow: hidden;
+  }
+}
+@media screen and (min-width:600px) {
+  .page-fund .fund-detail .fund-section-title {
+    height: 50px;
+    font-size: 24px;
+    padding: 0 40px;
+  }
+  .page-fund .fund-detail .inner {
+    margin: 40px;
+  }
+}
+
+
+/* end */

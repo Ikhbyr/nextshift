@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*
+ * base
+ */
+
+.l__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.l__flex-column {
+  flex-direction: column;
+}
+
+@media screen and (max-width:599px) {
+  .content-body {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width:600px) {
+  .content-body {
+    /*padding-top: 79px;*/  /*osaki*/
+    padding-top: 60px;  /*osaki*/
+  }
+  .contents .contents-inner {
+    width: 1024px;
+    margin-left:  auto;
+    margin-right: auto;
+  }
+}
+
+/* end */

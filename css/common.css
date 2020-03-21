@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*******************************
+             Common
+*******************************/
+
+/* base Set
+----------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  font-size: 14px;
+}
+body {
+  position: relative;
+  min-height: 100%;
+  height: auto;
+  font-family: "メイリオ" , Meiryo , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-size: 14px;
+  color: #565E63;
+  line-height: 1.5;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.0em;
+  font-weight: normal;
+}
+table {
+  border-collapse: collapse;
+}
+img {
+  border: none;
+  vertical-align: bottom;
+}
+li {
+  list-style-type: none;
+}
+sup {
+  color: #900;
+}
+input,
+textarea {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "メイリオ" , Meiryo , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* link Set
+----------------------------------------------------*/
+a {
+  color: #4990E2;
+  text-decoration: underline;
+}
+a:hover {
+  color: #055DC3;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+/* clear
+----------------------------------------------------*/
+/* ---IE7.IE8 clearfix--- */
+.clearfix:after { content: ".";display: block;clear: both;height: 0;visibility: hidden; }
+.clearfix { display: inline-block; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+.clear {
+  clear: both;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.28571429em;
+  margin: calc(2rem -  0.14285714em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.71428571rem;
+}
+h3 {
+  font-size: 1.28571429rem;
+}
+h4 {
+  font-size: 1.07142857rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*******************************
+             Page
+*******************************/
+.pagetop
+    {
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    }
+ 
+.pagetop a
+    {
+    display: block;
+    text-decoration: none;
+    }
+ 
+.pagetop:hover
+{
+    opacity: 0.85 ;
+}
+/* end */

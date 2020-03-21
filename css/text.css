@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* 
+ * align position
+ */
+
+.align-l { text-align: left!important }
+.align-c { text-align: center!important }
+.align-r { text-align: right!important }
+
+/* 
+ * coloring
+ */
+
+.clr-black  { color: #000000; }
+
+/*
+ * title set
+ */
+
+@media screen and (max-width:599px) {
+  .ttl--s1 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .ttl--s1-b {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .ttl--s2 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .ttl--s2-b {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .ttl--s3 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .ttl--s3-b {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .ttl-h1 {
+    color: #FFF;
+    /*background-color: #00497C;*/  /*osaki*/
+    background-color: #00469b;  /*osaki*/
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+  .ttl-h2 {
+    /*background-color: #00497C;*/  /*osaki*/
+    background-color: #00469b;  /*osaki*/
+    padding-left: 10px;
+  }
+
+}
+
+@media screen and (min-width:600px) {
+  .ttl--s1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .ttl--s1-b {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .ttl--s2 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .ttl--s2-b {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .ttl--s3 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .ttl--s3-b {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .ttl-h1 {
+    color: #FFF;
+    /*background-color: #00497C;*/  /*osaki*/
+    background-color: #00469b;  /*osaki*/
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+  }
+  .ttl-h2 {
+    /*border-left: solid 5px #00497C;*/  /*osaki*/
+    border-left: solid 5px #00469b;  /*osaki*/
+    padding-left: 10px;
+  }
+
+}
+
+/* 
+ * link set
+ */
+
+.link_gray { color: #565E63; }
+.link_gray:hover {
+  color: #565E63;
+  text-decoration: underline;
+}
+
+
+/*
+ * paragraph set
+ */
+
+.caption {
+  font-size: 12px;
+}
+
+
+/* end */
