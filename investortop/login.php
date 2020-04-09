@@ -27,7 +27,8 @@ ob_start();
         if($count == 1) {
 
             $_SESSION['login_user'] = $email_address;
-            echo "<script type='text/javascript'>window.top.location='/home/welcome.php';</script>"; exit;
+            // echo "<script type='text/javascript'>window.top.location='/home/welcome.php';</script>"; exit;
+            $errors = "Ta amjilttai newterlee";
         }else {
             $errors = "Нэр эсвэл нууц үг тань таарахгүй байна";
         }
