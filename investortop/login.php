@@ -1,3 +1,40 @@
+<?php
+ob_start();
+    session_start();
+?>
+<?php
+  $servername = "localhost"; // сервер комьютерийн хаяг буюу нэр
+	$username = "root";     // MySQL-ийн бааз руу хандах хэрэглэгчийн нэр
+	$password = ""; // MySQL-ийн бааз руу хандах нууц үг
+	$database = "test"; // Баазын нэр
+
+	// Өгөгдлийн сантай холбох объект үүсгэх
+	$conn = new mysqli($servername, $username, $password, $database);
+    $errors="Таньд энэ өдрийн мэнд хүргье.";
+    if($_SERVER["REQUEST_METHOD"] == "POST") {
+        // email_address and password sent from form 
+        
+        $email_address = $_POST['email_address'];
+        $password = $_POST['password'];
+
+        
+        $sql = "SELECT id FROM user1 WHERE email_address = '$email_address' and password = '$password'";
+        $result = $conn->query($sql);
+        $count = mysqli_num_rows($result);
+        
+        // If result matched $myemail_address and $mypassword, table row must be 1 row
+            
+        if($count == 1) {
+
+            $_SESSION['login_user'] = $email_address;
+            echo "<script type='text/javascript'>window.top.location='/home/welcome.php';</script>"; exit;
+        }else {
+            $errors = "Нэр эсвэл нууц үг тань таарахгүй байна";
+        }
+        
+    }
+    
+    ?>
 <!DOCTYPE html>
 <html>
 
@@ -176,12 +213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="contents-inner ui stackable centered grid">
       <div class="ten wide column">
-
-        <form action="https://nextshiftfund.jp/investortop/login.html" class="c_form form-register-temporary" method="post" autocomplete="off">
-          <input type="hidden" name="gfrsc" value="9148a77e4f9c5286324d27a8c2d60068">
-          <input type="hidden" name="command" value="do_auth">
-          
-
+        <form class="c_form form-register-temporary" method="post" autocomplete="off">
           <div class="c_input-form has-error">
                 <span class="message-error" id="erm.login"></span>
           </div>
@@ -214,7 +246,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <nav class="align-c">
             <a href="apply_reissue_password_entry.html?command=new" class="c_back-top">パスワードを忘れた方</a>
           </nav>
-
+          <b>  
+            <?php 
+            echo $errors;
+            ?>
+            </b>
         </form>
 
       </div>
