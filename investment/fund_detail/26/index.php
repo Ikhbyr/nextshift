@@ -19,7 +19,7 @@
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+  '../../../../www.googletagmanager.com/gtm5445.php?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MRKQZ9M');</script>
   <!-- End Google Tag Manager -->
 
@@ -80,7 +80,7 @@
 <body class="pushable">
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRKQZ9M"
+<noscript><iframe src="https://www.googletagmanager.com/ns.php?id=GTM-MRKQZ9M"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -111,60 +111,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="ui right vertical labeled sidebar menu">
   <nav class="sp-global-nav">
     <div class="sp-global-nav-head">
-    
+
       <!-- ログイン前 -->
       <ul class="mypage-menu">
-        <li><a href="../../../investortop/login.html" class="link_sub">ログイン</a></li>
-        <li><a href="../../../investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+        <li><a href="../../../investortop/login.php" class="link_sub">ログイン</a></li>
+        <li><a href="../../../investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
       </ul>
-    
+
       <i class="menu-closer"></i>
     </div>
     <!-- ログイン前 -->
-    
+
     <ul>
-      <li><a href="../../../index.html">ホーム</a></li>
-      <li><a href="../../../index.html#top-latest-fund-list">ファンド一覧</a></li>
+      <li><a href="../../../index.php">ホーム</a></li>
+      <li><a href="../../../index.php#top-latest-fund-list">ファンド一覧</a></li>
       <!--<li><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
       <!--<li><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-      <li><a href="../../../knowledge/index.html">ギモンを解決</a></li>
-      <li><a href="../../../story/index.html">人の物語</a></li>
+      <li><a href="../../../knowledge/index.php">ギモンを解決</a></li>
+      <li><a href="../../../story/index.php">人の物語</a></li>
       <li><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
       <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-      <li><a href="../../../faq/faq.html">よくある質問</a></li>
+      <li><a href="../../../faq/faq.php">よくある質問</a></li>
       <li><a href="https://www.nextshift.jp/category/report/インパクトレポート">インパクトレポート</a></li>
 
     </ul>
-    
+
   </nav>
 </div>
 <div class="pusher content-body">
 
   <!-- HEADERが入ります -->
-  
+
   <!-- ログイン前 -->
   <header class="main-header bg-none">
     <div class="header-body">
       <div class="logo">
-        <a href="../../../index.html"><img src="../../../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="../../../index.php"><img src="../../../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <nav class="global-nav visible-pc ">
         <ul>
-          <li class="nav-arrow"><a href="../../../index.html">ホーム</a></li>
-          <li class="nav-arrow"><a href="../../../index.html#top-latest-fund-list">ファンド一覧</a></li>
+          <li class="nav-arrow"><a href="../../../index.php">ホーム</a></li>
+          <li class="nav-arrow"><a href="../../../index.php#top-latest-fund-list">ファンド一覧</a></li>
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-          <li class="nav-arrow"><a href="../../../knowledge/index.html">ギモンを解決</a></li>
-          <li class="nav-arrow"><a href="../../../story/index.html">人の物語</a></li>
+          <li class="nav-arrow"><a href="../../../knowledge/index.php">ギモンを解決</a></li>
+          <li class="nav-arrow"><a href="../../../story/index.php">人の物語</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-          <li class="nav-arrow"><a href="../../../faq/faq.html">よくある質問</a></li>
+          <li class="nav-arrow"><a href="../../../faq/faq.php">よくある質問</a></li>
         </ul>
       </nav>
       <nav class="header-nav">
         <ul class="mypage-menu">
-          <li><a href="../../../investortop/login.html" class="link_sub">ログイン</a></li>
-          <li><a href="../../../investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+          <li><a href="../../../investortop/login.php" class="link_sub">ログイン</a></li>
+          <li><a href="../../../investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
         </ul>
       </nav>
       <i class="menu-opener"></i>
@@ -180,8 +180,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="fund-outline">
         <div class="fd-wrapper">
           <div class="status finish"> 成立
-            
-            
+
+
           </div>
           <div class="invest-type">マイクロファイナンス</div>
             <h2 class="fund-name">カンボジア農家さん応援ファンド５号</h2>
@@ -219,7 +219,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <p class="fd-time">残り募集期間<span>－</span></p>
 
               <div class="fd-btn-investment">
-              
+
               </div>
             </div><!--end box-r-->
             </div><!--end fd-wrapper-->
@@ -399,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<ul class="story">
 	<li class="story-title">当ファンドの融資先について</small></li>
-	<li>	
+	<li>
 	カンボジアのJC Finance PLC社（以下、JC社）へ融資を行います。JC社は、農機ローンをはじめとした農家向けの融資事業を展開しています。
 	テクノロジーを活用することが特徴で、現地最大手の送金業者と戦略提携をし、これまでマイクロファイナンス機関がリーチできなかった、郊外の奥地にいる農家の支援を可能にします。
 	</li>
@@ -501,7 +501,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	日本で眠っている資金を安定した利回りで運用し、カンボジアの成長に貢献してみませんか。
 
     </p>
- 
+
     <h4>安定したリターンと分散投資</h4>
     <p>
       当ファンドでは、中小企業や農家に融資を行うマイクロファイナンス機関へ融資をし、借り手の資金需要に応えます。当社のマイクロファイナンスファンドは大きく分けて3つの魅力があります。
@@ -557,7 +557,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="http://www.convergences.org/wp-content/uploads/2018/09/BMF_2018_EN_VFINALE.pdf" target="_blank">Microfinance Barometer (2018)</a></li>
         <li><a href="http://www.convergences.org/en/104906-2/" target="_blank">Microfinance Barometer (2017)</a></li>
         <li><a href="https://www.nbc.org.kh/download_files/supervision/sup_an_rep_eng/Annual-Report-2016-ENG-Final.pdf" target="_blank">カンボジア中央銀行 (2016)<span>[PDF]</span></a></li>
-        <li><a href="http://www.cambodiainvestment.gov.kh/ja/investors-information/land-site-development.html" target="_blank">カンボジア開発評議会 (2018)</a></li>
+        <li><a href="http://www.cambodiainvestment.gov.kh/ja/investors-information/land-site-development.php" target="_blank">カンボジア開発評議会 (2018)</a></li>
         <li><a href="https://www.nbc.org.kh/download_files/legislation/prakas_eng/Prakas-on-Interest-Rate-Cap-Eng.pdf" target="_blank">カンボジア中央銀行省令B7-107-109PK号 (2017)<span>[PDF]</span></a></li>
         <li><a href="https://www.adb.org/countries/cambodia/economy" target="_blank">アジア開発銀行 (2018)</a></li>
         <li><a href="http://documents.worldbank.org/curated/en/824341468017405577/pdf/ACS45450REVISE00English0260May02014.pdf" target="_blank">世界銀行 (2013)<span>[PDF]</span></a></li>
@@ -610,11 +610,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <strong>1　必要な許認可の有無確認</strong><br>
 	前提として、該当する国・地域において必要な許認可を有していることが挙げられます。国・地域によりますが、中央銀行が主に監督機関にあたり、規制の遵守をきちんと行っている機関が投資対象の第一条件です。<br><br>
-	<strong>2　財務状況の確認</strong><br>        
+	<strong>2　財務状況の確認</strong><br>
 	マイクロファイナンス機関の財務面に着目します。財務面では、各機関の年次レポートにおいて、融資先ポートフォリオ及び決算書類を元に、不良債権率や融資残高、成長性などの項目を見ます。
 	また数ある認可機関から、一定の与信基準をクリアした機関にのみ融資をするため、担保や保証は必ずしも必要ではないと考えています。
 	設定する場合、余分なコストが発生する恐れがあり、お客様の利回りを確保する観点からも、本商品は無担保・無保証としています。<br><br>
-	<strong>3　社会性の確認</strong><br>         
+	<strong>3　社会性の確認</strong><br>
  	最も重要視するのが社会性です。農家、低所得者、中小企業向けに融資をし、生活改善をサポートしているかを評価しています。<br><br>
         以上の観点から、総合的に点数を付け、融資の可否を決定しています。<br>
       </dd>
@@ -686,18 +686,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <br>
         ■ローンを借りるのは大きな決断だったと思いますが、現状には満足されていますか。<br>
 		「とても満足しています。より稼げるようになりました。以前は4ヘクタールの自分だけの水田しかなかったですが、今はトラクターサービスも行い家族を養えています。」<br>
-         
+
          <br>
         ■ローンを借りて同じトラクターサービスをすることを他の農家さんにもお勧めしますか。<br>
 		「もちろんです。すでにご近所さんには紹介しました。でもまだ彼らは決めていなくて、穀物の収穫時期がくるまで待っているようです。実感として仕事が楽になるので、私は別のローンを借りようとおもっています。」<br>
          <br>
-             
+
  		<li class="story-title">JC担当者よりコメント</li>
         <li>「ポーさんもとてもまじめな経営者です。家族を支えていくという責任感をお持ちです。返済遅延は一度もありません。私たちは引き続きポーさんのビジネスを応援していきたいと思っています。」</li>
 		</ul>
 
 	 <p>その他の借り手ストーリーはこちらからご覧いただけます。合わせてお読みください。</p>
-    <a href="../../../story/index.html" target="_blank"><img src="img5.png" alt="つながる。ストーリー" class="img-responsive"></a>
+    <a href="../../../story/index.php" target="_blank"><img src="img5.png" alt="つながる。ストーリー" class="img-responsive"></a>
 
       <h4>金融包摂（Financial Inclusion）を促進</h4>
       <p>
@@ -706,7 +706,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	テクノロジーを活用することが特徴で、現地最大手の送金業者と戦略提携をし、これまでマイクロファイナンス機関がリーチできなかった郊外の奥地にいる農家の支援を可能にします。<br><br>
 	当ファンドでは、金融包摂（Financial Inclusionと呼ばれる、世界銀行が提唱した「すべての人々に金融サービスを」という開発課題）を促進するマイクロファイナンス機関へ融資を実行し、投資家の資金が必要な場所に流れる支援をします。
       </p>
-    
+
       <h4>SDGsへの貢献</h4>
       <p>
         当ファンドを通して、国連の提唱するSDGs（持続可能な開発目標）に貢献することができます。
@@ -750,7 +750,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="img-box-sm">
       <img src="view5.jpg" class="img-responsive">
     </p>
-    
+
       <h4>日本での社会的インパクト投資の認知を高めるGSG国内諮問委員会賛同メンバーに</h4>
       <p>
         ネクストシフトは、日本で社会的インパクト投資を広げていくために必要とされる施策、取り組み、法的・制度的な枠組みについて提言する
@@ -862,15 +862,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- FOOTERが入ります -->
     <footer class="main-footer">
     <nav class="sp-footer-main-menu visible-sp">
-    
+
       <!-- ログイン前 -->
       <ul>
-        <li><a href="../../../index.html#top-latest-fund-list">ファンド一覧</a></li>
-        <li><a href="../../../index.html#impact-fund-top">社会的インパクト投資とは</a></li>
-        <li><a href="../../../index.html#start-guide-top">スタートアップガイド</a></li>
+        <li><a href="../../../index.php#top-latest-fund-list">ファンド一覧</a></li>
+        <li><a href="../../../index.php#impact-fund-top">社会的インパクト投資とは</a></li>
+        <li><a href="../../../index.php#start-guide-top">スタートアップガイド</a></li>
         <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
       </ul>
-    
+
     </nav>
     <nav class="footer-nav">
       <ul>
@@ -879,15 +879,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="../../../document/step1_entry03.pdf" target="_blank">個人情報保護方針</a></li>
         <li><a href="../../../document/docment01.pdf" target="_blank">反社基本方針</a></li>
         <li><a href="../../../document/docment02.pdf" target="_blank">勧誘方針</a></li>
-        <li><a href="../../../faq/faq.html">よくある質問</a></li>
-        <li><a href="../../../investortop/inquiry_entry.html?command=new">お問い合わせ</a></li>
+        <li><a href="../../../faq/faq.php">よくある質問</a></li>
+        <li><a href="../../../investortop/inquiry_entry.php?command=new">お問い合わせ</a></li>
       </ul>
     </nav>
     <!--osaki変更ここから-->
     <div class="row">
     <div class="company-box">
       <div class="logo">
-        <a href="../../../index.html"><img src="../../../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="../../../index.php"><img src="../../../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <p class="company-link">運営会社：<a href="https://www.nextshift.jp/" target="_blank"><span>ネクストシフト株式会社</span></a></p>
       <p>〒680-0404 <span>鳥取県八頭郡八頭町見槻中154-2隼Lab.</span></p>
@@ -914,7 +914,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         　電話番号：03-5739-3861<br>
       </p>
 
-      <p><a href="../../../investortop/inquiry_entry.html?command=new">お問い合わせ</a>はこちら</p>
+      <p><a href="../../../investortop/inquiry_entry.php?command=new">お問い合わせ</a>はこちら</p>
 
     </div>
     </div><!--end row-->

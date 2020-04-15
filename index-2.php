@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from nextshiftfund.jp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:17:18 GMT -->
+<!-- Mirrored from nextshiftfund.jp/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:17:18 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
   <!-- Standard Meta -->
@@ -18,7 +18,7 @@
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+  '../www.googletagmanager.com/gtm5445.php?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MRKQZ9M');</script>
   <!-- End Google Tag Manager -->
 
@@ -88,7 +88,7 @@
 <body class="pushable">
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRKQZ9M"
+<noscript><iframe src="https://www.googletagmanager.com/ns.php?id=GTM-MRKQZ9M"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -119,31 +119,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="ui right vertical labeled sidebar menu">
   <nav class="sp-global-nav">
     <div class="sp-global-nav-head">
-    
+
       <!-- ログイン前 -->
       <ul class="mypage-menu">
-        <li><a href="investortop/login.html" class="link_sub">ログイン</a></li>
-        <li><a href="investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+        <li><a href="investortop/login.php" class="link_sub">ログイン</a></li>
+        <li><a href="investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
       </ul>
-    
+
       <i class="menu-closer"></i>
     </div>
     <!-- ログイン前 -->
-    
+
     <ul>
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="index.html#top-latest-fund-list">ファンド一覧</a></li>
+      <li><a href="index.php">ホーム</a></li>
+      <li><a href="index.php#top-latest-fund-list">ファンド一覧</a></li>
       <!--<li><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
       <!--<li><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-      <li><a href="knowledge/index.html">ギモンを解決</a></li>
-      <li><a href="story/index.html">人の物語</a></li>
+      <li><a href="knowledge/index.php">ギモンを解決</a></li>
+      <li><a href="story/index.php">人の物語</a></li>
       <li><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
       <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-      <li><a href="faq/faq.html">よくある質問</a></li>
+      <li><a href="faq/faq.php">よくある質問</a></li>
       <li><a href="https://www.nextshift.jp/category/report/インパクトレポート">インパクトレポート</a></li>
 
     </ul>
-    
+
   </nav>
 </div>
 
@@ -151,39 +151,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="pusher content-body">
   <div class="page-top">
-	
-    
+
+
   <!-- ログイン前 -->
   <header class="main-header bg-none">
     <div class="header-body">
       <div class="logo">
-        <a href="index.html"><img src="images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="index.php"><img src="images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <nav class="global-nav visible-pc ">
         <ul>
-          <li class="nav-arrow"><a href="index.html">ホーム</a></li>
-          <li class="nav-arrow"><a href="index.html#top-latest-fund-list">ファンド一覧</a></li>
+          <li class="nav-arrow"><a href="index.php">ホーム</a></li>
+          <li class="nav-arrow"><a href="index.php#top-latest-fund-list">ファンド一覧</a></li>
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-          <li class="nav-arrow"><a href="knowledge/index.html">ギモンを解決</a></li>
-          <li class="nav-arrow"><a href="story/index.html">人の物語</a></li>
+          <li class="nav-arrow"><a href="knowledge/index.php">ギモンを解決</a></li>
+          <li class="nav-arrow"><a href="story/index.php">人の物語</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-          <li class="nav-arrow"><a href="faq/faq.html">よくある質問</a></li>
+          <li class="nav-arrow"><a href="faq/faq.php">よくある質問</a></li>
         </ul>
       </nav>
       <nav class="header-nav">
         <ul class="mypage-menu">
-          <li><a href="investortop/login.html" class="link_sub">ログイン</a></li>
-          <li><a href="investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+          <li><a href="investortop/login.php" class="link_sub">ログイン</a></li>
+          <li><a href="investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
         </ul>
       </nav>
       <i class="menu-opener"></i>
     </div>
   </header>
     <section class="main-visual">
-      
-      
+
+
       <div class="fd-service-status">
        <div class="fd-service-money">
         <p class="fd-service-total">出資総額<span>155,640,000円</span></p>
@@ -192,8 +192,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="fd-service-member">口座開設数<span>1075名</span></p>
       </div>
       <!--end fd-service-status-->
-      
-      
+
+
        <!--slider-->
       <div class="fd-sliderArea">
         <ul class="fd-slider fd-fade">
@@ -223,22 +223,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="contents templates-fund in-page-link">
 
-      <h1 style="text-align:center;"><center><div class="scroll"><table class="tbl-gsp02"><tr><th nowrap style="font-size : 25px;">新着情報</th><th></th></tr><tr><td class="w20" style="font-size : 15px;">2020.03.06</td><td nowrap style="font-size : 15px;"><span>「口座開設数1,000突破記念ファンド」の募集を開始！詳細は<a href="investment/fund_detail/35/index.html">こちら</a>から。</span></td></tr><tr><td class="w20" style="font-size : 15px;">2020.03.02</td><td nowrap style="font-size : 15px;"><span/>「新規会員登録キャンペーン」を実施中！詳細は<a href="https://campaign2002.nextshift.jp/">こちら</a>から。</span></td></tr><tr><td class="w20" style="font-size : 15px;">2020.02.26</td><td nowrap style="font-size : 15px;"><span>「カンボジア農家さん応援ファンド８号」の募集を開始！詳細は<a href="investment/fund_detail/34/index.html">こちら</a>から。</span></td></tr></table></div></center></h1>
-      <div class="fd-btn-orange mb-6"><a href="investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></div>
-      
+      <h1 style="text-align:center;"><center><div class="scroll"><table class="tbl-gsp02"><tr><th nowrap style="font-size : 25px;">新着情報</th><th></th></tr><tr><td class="w20" style="font-size : 15px;">2020.03.06</td><td nowrap style="font-size : 15px;"><span>「口座開設数1,000突破記念ファンド」の募集を開始！詳細は<a href="investment/fund_detail/35/index.php">こちら</a>から。</span></td></tr><tr><td class="w20" style="font-size : 15px;">2020.03.02</td><td nowrap style="font-size : 15px;"><span/>「新規会員登録キャンペーン」を実施中！詳細は<a href="https://campaign2002.nextshift.jp/">こちら</a>から。</span></td></tr><tr><td class="w20" style="font-size : 15px;">2020.02.26</td><td nowrap style="font-size : 15px;"><span>「カンボジア農家さん応援ファンド８号」の募集を開始！詳細は<a href="investment/fund_detail/34/index.php">こちら</a>から。</span></td></tr></table></div></center></h1>
+      <div class="fd-btn-orange mb-6"><a href="investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></div>
+
       <div class="ui stackable centered" id="top-latest-fund-list">
         <div class="sixteen wide column">
 
 
-          
-          
+
+
           <ul class="fund-list">
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status keep-on"> 募集中
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">モンゴル農家さん応援ファンド５号</h2>
@@ -252,7 +252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥8,320,000（69%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:69%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -273,16 +273,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>16日  3:44</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/35/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/35/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status keep-on"> 募集中
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">カンボジア農家さん応援ファンド８号</h2>
@@ -296,7 +296,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥2,440,000（30%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:30%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -317,16 +317,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>5日  3:44</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/34/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/34/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">カンボジア農家さん応援ファンド７号</h2>
@@ -340,7 +340,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥6,000,000（100%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:100%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -361,16 +361,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/33/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/33/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">モンゴル農家さん応援ファンド４号</h2>
@@ -384,7 +384,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥6,000,000（100%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:100%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -405,16 +405,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/32/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/32/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">ジョージア中小企業応援ファンド２号</h2>
@@ -428,7 +428,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥5,000,000（100%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:100%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -449,16 +449,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/31/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/31/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">モンゴル農家さん応援ファンド３号</h2>
@@ -472,7 +472,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥6,880,000（68%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:68%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -493,16 +493,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/30/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/30/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">カンボジア農家さん応援ファンド６号</h2>
@@ -516,7 +516,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥6,500,000（65%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:65%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -537,16 +537,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/29/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/29/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">ジョージア中小企業応援ファンド１号</h2>
@@ -560,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥5,000,000（100%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:100%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -581,16 +581,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/27/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/27/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">モンゴル農家さん応援ファンド２号</h2>
@@ -604,7 +604,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥6,000,000（100%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:100%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -625,16 +625,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/28/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/28/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
                       <li>
              <div class="fd-wrapper">
               <div class="status finish"> 成立
-              
-              
+
+
                </div>
                 <div class="invest-type">マイクロファイナンス</div>
                 <h2 class="fund-name">カンボジア農家さん応援ファンド５号</h2>
@@ -648,7 +648,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <span class="percentage-number">応募金額 ¥6,000,000（100%）</span>
                   <span class="progress-bar"><i class="percentage-bar" style="width:100%;"></i></span>
                 </div><!--end fund-progress-->
-                
+
                 <table class="tbl-gsp01">
                   <thead>
                     <tr>
@@ -669,22 +669,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </table>
 
                   <p class="fd-time">残り募集期間<span>－</span></p>
-                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/26/index.html"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
+                <div class="fd-btn-light-blue-w"><a href="investment/fund_detail/26/index.php"><span class="fd-arrow">ファンドの詳細へ</span></a></div>
               </div><!--end box-r-->
               </div><!--end fd-wrapper-->
             </li>
-          
+
           </ul>
-          
+
 
       </div><!--end sixteen-->
       </div><!--end contents-inner-->
 
     </div><!--end contents-->
-      
-    <div class="fd-btn-blue mb-6"><a href="investortop/login.html">ファンド一覧をみる</a></div>
 
-    <div class="fd-btn-orange mb-6"><a href="investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></div>
+    <div class="fd-btn-blue mb-6"><a href="investortop/login.php">ファンド一覧をみる</a></div>
+
+    <div class="fd-btn-orange mb-6"><a href="investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></div>
 
   <!--社会的インパクト投資とは-->
   <section class="in-page-link">
@@ -780,11 +780,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </ul>
 
-      
+
     </div><!--end in-page-link-->
   </section>
 
-  <div class="fd-btn-orange mb-6"><a href="investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></div>
+  <div class="fd-btn-orange mb-6"><a href="investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></div>
 
   <!--お知らせ-->
     <section class="top-wrapper">
@@ -809,15 +809,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- FOOTERが入ります -->
   <footer class="main-footer">
     <nav class="sp-footer-main-menu visible-sp">
-    
+
       <!-- ログイン前 -->
       <ul>
-        <li><a href="index.html#top-latest-fund-list">ファンド一覧</a></li>
-        <li><a href="index.html#impact-fund-top">社会的インパクト投資とは</a></li>
-        <li><a href="index.html#start-guide-top">スタートアップガイド</a></li>
+        <li><a href="index.php#top-latest-fund-list">ファンド一覧</a></li>
+        <li><a href="index.php#impact-fund-top">社会的インパクト投資とは</a></li>
+        <li><a href="index.php#start-guide-top">スタートアップガイド</a></li>
         <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
       </ul>
-    
+
     </nav>
     <nav class="footer-nav">
       <ul>
@@ -826,15 +826,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="document/step1_entry03.pdf" target="_blank">個人情報保護方針</a></li>
         <li><a href="document/docment01.pdf" target="_blank">反社基本方針</a></li>
         <li><a href="document/docment02.pdf" target="_blank">勧誘方針</a></li>
-        <li><a href="faq/faq.html">よくある質問</a></li>
-        <li><a href="investortop/inquiry_entry.html?command=new">お問い合わせ</a></li>
+        <li><a href="faq/faq.php">よくある質問</a></li>
+        <li><a href="investortop/inquiry_entry.php?command=new">お問い合わせ</a></li>
       </ul>
     </nav>
     <!--osaki変更ここから-->
     <div class="row">
     <div class="company-box">
       <div class="logo">
-        <a href="index.html"><img src="images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="index.php"><img src="images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <p class="company-link">運営会社：<a href="https://www.nextshift.jp/" target="_blank"><span>ネクストシフト株式会社</span></a></p>
       <p>〒680-0404 <span>鳥取県八頭郡八頭町見槻中154-2隼Lab.</span></p>
@@ -861,7 +861,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         　電話番号：03-5739-3861<br>
       </p>
 
-      <p><a href="investortop/inquiry_entry.html?command=new">お問い合わせ</a>はこちら</p>
+      <p><a href="investortop/inquiry_entry.php?command=new">お問い合わせ</a>はこちら</p>
 
     </div>
     </div><!--end row-->
@@ -891,14 +891,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
   $(function(){
     var windowWidth = $(window).width();
-    var htmlStr = $('#pageplugin').html();
+    var htmlStr = $('#pageplugin').php();
     var timer = null;
     $(window).on('resize',function() {
         var resizedWidth = $(window).width();
         if(windowWidth != resizedWidth && resizedWidth < 500) {
             clearTimeout(timer);
             timer = setTimeout(function() {
-                $('#pageplugin').html(htmlStr);
+                $('#pageplugin').php(htmlStr);
                 window.FB.XFBML.parse();
                 //window.FB.XFBML.parse()で再レンダリングします。
                 var windowWidth = $(window).width();
@@ -909,5 +909,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 </body>
 
-<!-- Mirrored from nextshiftfund.jp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:17:18 GMT -->
+<!-- Mirrored from nextshiftfund.jp/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:17:18 GMT -->
 </html>

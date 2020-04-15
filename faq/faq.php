@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from nextshiftfund.jp/faq/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:15:11 GMT -->
+<!-- Mirrored from nextshiftfund.jp/faq/faq.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:15:11 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 
@@ -19,7 +19,7 @@
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+  '../../www.googletagmanager.com/gtm5445.php?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MRKQZ9M');</script>
   <!-- End Google Tag Manager -->
 
@@ -78,7 +78,7 @@
 <body class="pushable">
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRKQZ9M"
+<noscript><iframe src="https://www.googletagmanager.com/ns.php?id=GTM-MRKQZ9M"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -109,61 +109,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="ui right vertical labeled sidebar menu">
   <nav class="sp-global-nav">
     <div class="sp-global-nav-head">
-    
+
       <!-- ログイン前 -->
       <ul class="mypage-menu">
-        <li><a href="../investortop/login.html" class="link_sub">ログイン</a></li>
-        <li><a href="../investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+        <li><a href="../investortop/login.php" class="link_sub">ログイン</a></li>
+        <li><a href="../investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
       </ul>
-    
+
       <i class="menu-closer"></i>
     </div>
     <!-- ログイン前 -->
-    
+
     <ul>
-      <li><a href="../index.html">ホーム</a></li>
-      <li><a href="../index.html#top-latest-fund-list">ファンド一覧</a></li>
+      <li><a href="../index.php">ホーム</a></li>
+      <li><a href="../index.php#top-latest-fund-list">ファンド一覧</a></li>
       <!--<li><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
       <!--<li><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-      <li><a href="../knowledge/index.html">ギモンを解決</a></li>
-      <li><a href="../story/index.html">人の物語</a></li>
+      <li><a href="../knowledge/index.php">ギモンを解決</a></li>
+      <li><a href="../story/index.php">人の物語</a></li>
       <li><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
       <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-      <li><a href="faq.html">よくある質問</a></li>
+      <li><a href="faq.php">よくある質問</a></li>
       <li><a href="https://www.nextshift.jp/category/report/インパクトレポート">インパクトレポート</a></li>
 
     </ul>
-    
+
   </nav>
 </div>
 
 <div class="pusher content-body">
 
   <!-- HEADERが入ります -->
-  
+
   <!-- ログイン前 -->
   <header class="main-header bg-none">
     <div class="header-body">
       <div class="logo">
-        <a href="../index.html"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="../index.php"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <nav class="global-nav visible-pc ">
         <ul>
-          <li class="nav-arrow"><a href="../index.html">ホーム</a></li>
-          <li class="nav-arrow"><a href="../index.html#top-latest-fund-list">ファンド一覧</a></li>
+          <li class="nav-arrow"><a href="../index.php">ホーム</a></li>
+          <li class="nav-arrow"><a href="../index.php#top-latest-fund-list">ファンド一覧</a></li>
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-          <li class="nav-arrow"><a href="../knowledge/index.html">ギモンを解決</a></li>
-          <li class="nav-arrow"><a href="../story/index.html">人の物語</a></li>
+          <li class="nav-arrow"><a href="../knowledge/index.php">ギモンを解決</a></li>
+          <li class="nav-arrow"><a href="../story/index.php">人の物語</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-          <li class="nav-arrow"><a href="faq.html">よくある質問</a></li>
+          <li class="nav-arrow"><a href="faq.php">よくある質問</a></li>
         </ul>
       </nav>
       <nav class="header-nav">
         <ul class="mypage-menu">
-          <li><a href="../investortop/login.html" class="link_sub">ログイン</a></li>
-          <li><a href="../investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+          <li><a href="../investortop/login.php" class="link_sub">ログイン</a></li>
+          <li><a href="../investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
         </ul>
       </nav>
       <i class="menu-opener"></i>
@@ -231,7 +231,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <dt>09.出金先口座の金融機関・支店を指定しようとしましたが、指定できませんでした。</dt>
       <dd>新設の支店などの金融機関データについては、反映まで一定の日数を要す場合がございます。指定リストに掲載が無い場合につきましては、ご希望の銀行名・支店名をメールにてご連絡お願い致します。</dd>
     </dl>
-    
+
     </section>
 
     <section class="fd_tab fd_hide">
@@ -246,7 +246,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="mailto:info&#64;nextshiftfund.jp">info&#64;nextshiftfund.jp</a>
       </dd>
     </dl>
-    
+
     </section>
 
     <section class="fd_tab fd_hide">
@@ -359,7 +359,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <dd>
        以下2つをご注意いただきお手続きをお願いいたします。<br>
         １．入金金額を半角数字でご入力ください。<br>
-        ２．ご予約金額と同額をご入力ください。 
+        ２．ご予約金額と同額をご入力ください。
       </dd>
     </dl>
     <dl id="q3-16" class="fd_faq_inner">
@@ -395,10 +395,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         分配金は、お客様の出資金等を管理する口座を経由して、送金等に必要な事務処理後、お客様のご登録口座へお支払いする予定となっています。なお、恒常的に出資金、分配金をお預かりする預託金口座に該当するものはございません。
       </dd>
     </dl>
-    
+
     </section>
 
-    <p>その他の質問は、ウェブサイトの<a href="../investortop/inquiry_entry.html?command=new">お問い合わせ</a>よりご連絡ください。</p>
+    <p>その他の質問は、ウェブサイトの<a href="../investortop/inquiry_entry.php?command=new">お問い合わせ</a>よりご連絡ください。</p>
 
 </div><!--end fd_content-->
 </div><!--end fd_tabbox-->
@@ -406,15 +406,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- FOOTERが入ります -->
     <footer class="main-footer">
     <nav class="sp-footer-main-menu visible-sp">
-    
+
       <!-- ログイン前 -->
       <ul>
-        <li><a href="../index.html#top-latest-fund-list">ファンド一覧</a></li>
-        <li><a href="../index.html#impact-fund-top">社会的インパクト投資とは</a></li>
-        <li><a href="../index.html#start-guide-top">スタートアップガイド</a></li>
+        <li><a href="../index.php#top-latest-fund-list">ファンド一覧</a></li>
+        <li><a href="../index.php#impact-fund-top">社会的インパクト投資とは</a></li>
+        <li><a href="../index.php#start-guide-top">スタートアップガイド</a></li>
         <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
       </ul>
-    
+
     </nav>
     <nav class="footer-nav">
       <ul>
@@ -423,15 +423,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="../document/step1_entry03.pdf" target="_blank">個人情報保護方針</a></li>
         <li><a href="../document/docment01.pdf" target="_blank">反社基本方針</a></li>
         <li><a href="../document/docment02.pdf" target="_blank">勧誘方針</a></li>
-        <li><a href="faq.html">よくある質問</a></li>
-        <li><a href="../investortop/inquiry_entry.html?command=new">お問い合わせ</a></li>
+        <li><a href="faq.php">よくある質問</a></li>
+        <li><a href="../investortop/inquiry_entry.php?command=new">お問い合わせ</a></li>
       </ul>
     </nav>
     <!--osaki変更ここから-->
     <div class="row">
     <div class="company-box">
       <div class="logo">
-        <a href="../index.html"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="../index.php"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <p class="company-link">運営会社：<a href="https://www.nextshift.jp/" target="_blank"><span>ネクストシフト株式会社</span></a></p>
       <p>〒680-0404 <span>鳥取県八頭郡八頭町見槻中154-2隼Lab.</span></p>
@@ -458,7 +458,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         　電話番号：03-5739-3861<br>
       </p>
 
-      <p><a href="../investortop/inquiry_entry.html?command=new">お問い合わせ</a>はこちら</p>
+      <p><a href="../investortop/inquiry_entry.php?command=new">お問い合わせ</a>はこちら</p>
 
     </div>
     </div><!--end row-->
@@ -491,5 +491,5 @@ $(function(){
 </script>
 </body>
 
-<!-- Mirrored from nextshiftfund.jp/faq/faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:15:11 GMT -->
+<!-- Mirrored from nextshiftfund.jp/faq/faq.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:15:11 GMT -->
 </html>

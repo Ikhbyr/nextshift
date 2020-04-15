@@ -12,7 +12,7 @@
   <!-- Site Properties -->
   <title>ファンドのあれこれ｜ネクストシフトファンド</title>
   <meta name="description" content="ネクストシフトファンドのギモンを解決！インパクト投資ってそもそも何なの？ネクストシフトファンドってどんな仕組みなんだろう？そんな当ファンドに関する素朴なギモンについてお答えしていきます。" />
-  <link rel="canonical" href="index.html">
+  <link rel="canonical" href="index.php">
 
   <link rel="icon" type="image/x-icon" href="../images/common/favicon.ico">
   <link rel="apple-touch-icon" href="../images/common/favicon.jpg">
@@ -20,7 +20,7 @@
   <!-- ogp -->
   <meta property="og:title" content="ファンドのあれこれ｜ネクストシフトファンド">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="index.html">
+  <meta property="og:url" content="index.php">
   <meta property="og:image" content="images/ogimage_knowledge.jpg">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:description" content="ネクストシフトファンドのギモンを解決！インパクト投資ってそもそも何なの？ネクストシフトファンドってどんな仕組みなんだろう？そんな当ファンドに関する素朴なギモンについてお答えしていきます。">
@@ -29,7 +29,7 @@
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    '../../www.googletagmanager.com/gtm5445.php?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-MRKQZ9M');</script>
   <!-- End Google Tag Manager -->
 
@@ -120,61 +120,61 @@
 <div class="ui right vertical labeled sidebar menu">
   <nav class="sp-global-nav">
     <div class="sp-global-nav-head">
-    
+
       <!-- ログイン前 -->
       <ul class="mypage-menu">
-        <li><a href="../investortop/login.html" class="link_sub">ログイン</a></li>
-        <li><a href="../investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+        <li><a href="../investortop/login.php" class="link_sub">ログイン</a></li>
+        <li><a href="../investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
       </ul>
-    
+
       <i class="menu-closer"></i>
     </div>
     <!-- ログイン前 -->
-    
+
     <ul>
-      <li><a href="../index.html">ホーム</a></li>
-      <li><a href="../index.html#top-latest-fund-list">ファンド一覧</a></li>
+      <li><a href="../index.php">ホーム</a></li>
+      <li><a href="../index.php#top-latest-fund-list">ファンド一覧</a></li>
       <!--<li><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
       <!--<li><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-      <li><a href="index.html">ギモンを解決</a></li>
-      <li><a href="../story/index.html">人の物語</a></li>
+      <li><a href="index.php">ギモンを解決</a></li>
+      <li><a href="../story/index.php">人の物語</a></li>
       <li><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
       <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-      <li><a href="../faq/faq.html">よくある質問</a></li>
+      <li><a href="../faq/faq.php">よくある質問</a></li>
       <li><a href="https://www.nextshift.jp/category/report/インパクトレポート">インパクトレポート</a></li>
 
     </ul>
-    
+
   </nav>
 </div>
 
 <div class="pusher content-body">
 
   <!-- HEADERが入ります -->
-  
+
   <!-- ログイン前 -->
   <header class="main-header bg-none">
     <div class="header-body">
       <div class="logo">
-        <a href="../index.html"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="../index.php"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <nav class="global-nav visible-pc ">
         <ul>
-          <li class="nav-arrow"><a href="../index.html">ホーム</a></li>
-          <li class="nav-arrow"><a href="../index.html#top-latest-fund-list">ファンド一覧</a></li>
+          <li class="nav-arrow"><a href="../index.php">ホーム</a></li>
+          <li class="nav-arrow"><a href="../index.php#top-latest-fund-list">ファンド一覧</a></li>
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#impact-fund-top">社会的インパクト投資</a></li>-->
           <!--<li class="nav-arrow"><a href="https://nextshiftfund.jp/#start-guide-top">スタートガイド</a></li>-->
-          <li class="nav-arrow"><a href="index.html">ギモンを解決</a></li>
-          <li class="nav-arrow"><a href="../story/index.html">人の物語</a></li>
+          <li class="nav-arrow"><a href="index.php">ギモンを解決</a></li>
+          <li class="nav-arrow"><a href="../story/index.php">人の物語</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/category/blog" target="_blank">ブログ</a></li>
           <li class="nav-arrow"><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
-          <li class="nav-arrow"><a href="../faq/faq.html">よくある質問</a></li>
+          <li class="nav-arrow"><a href="../faq/faq.php">よくある質問</a></li>
         </ul>
       </nav>
       <nav class="header-nav">
         <ul class="mypage-menu">
-          <li><a href="../investortop/login.html" class="link_sub">ログイン</a></li>
-          <li><a href="../investor/step1_entry.html?command=new" class="link_main">無料会員登録</a></li>
+          <li><a href="../investortop/login.php" class="link_sub">ログイン</a></li>
+          <li><a href="../investor/step1_entry.php?command=new" class="link_main">無料会員登録</a></li>
         </ul>
       </nav>
       <i class="menu-opener"></i>
@@ -1323,13 +1323,13 @@
         </div>
         <!----- END modal ----->
 
-        <a class="knowledge_btn" href="../index-2.html">
+        <a class="knowledge_btn" href="../index-2.php">
           <span>
             トップページに戻る
           </span>
         </a>
 
-        <a class="knowledge_fNav floating animated" href="../investor/step1_entry.html?command=new" data-floating-enter="fNavIn" data-floating-leave="fNavOut">
+        <a class="knowledge_fNav floating animated" href="../investor/step1_entry.php?command=new" data-floating-enter="fNavIn" data-floating-leave="fNavOut">
           <img src="images/pc/knwlg_floating-nav_pc.png" alt="無料会員登録はこちらから" class="_spHide">
           <img src="images/sp/knwlg_floating-nav_sp.png" alt="無料会員登録はこちらから" class="_pcHide">
         </a>
@@ -1347,15 +1347,15 @@
   <!-- FOOTERが入ります -->
   <footer class="main-footer">
     <nav class="sp-footer-main-menu visible-sp">
-    
+
       <!-- ログイン前 -->
       <ul>
-        <li><a href="../index.html#top-latest-fund-list">ファンド一覧</a></li>
-        <li><a href="../index.html#impact-fund-top">社会的インパクト投資とは</a></li>
-        <li><a href="../index.html#start-guide-top">スタートアップガイド</a></li>
+        <li><a href="../index.php#top-latest-fund-list">ファンド一覧</a></li>
+        <li><a href="../index.php#impact-fund-top">社会的インパクト投資とは</a></li>
+        <li><a href="../index.php#start-guide-top">スタートアップガイド</a></li>
         <li><a href="https://www.nextshift.jp/" target="_blank">企業情報</a></li>
       </ul>
-    
+
     </nav>
     <nav class="footer-nav">
       <ul>
@@ -1364,15 +1364,15 @@
         <li><a href="../document/step1_entry03.pdf" target="_blank">個人情報保護方針</a></li>
         <li><a href="../document/docment01.pdf" target="_blank">反社基本方針</a></li>
         <li><a href="../document/docment02.pdf" target="_blank">勧誘方針</a></li>
-        <li><a href="../faq/faq.html">よくある質問</a></li>
-        <li><a href="../investortop/inquiry_entry.html?command=new">お問い合わせ</a></li>
+        <li><a href="../faq/faq.php">よくある質問</a></li>
+        <li><a href="../investortop/inquiry_entry.php?command=new">お問い合わせ</a></li>
       </ul>
     </nav>
     <!--osaki変更ここから-->
     <div class="row">
     <div class="company-box">
       <div class="logo">
-        <a href="../index.html"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
+        <a href="../index.php"><img src="../images/common/logo.png" width="177" height="23" alt="Nextshift Fund ロゴ"></a>
       </div>
       <p class="company-link">運営会社：<a href="https://www.nextshift.jp/" target="_blank"><span>ネクストシフト株式会社</span></a></p>
       <p>〒680-0404 <span>鳥取県八頭郡八頭町見槻中154-2隼Lab.</span></p>
@@ -1399,7 +1399,7 @@
         　電話番号：03-5739-3861<br>
       </p>
 
-      <p><a href="../investortop/inquiry_entry.html?command=new">お問い合わせ</a>はこちら</p>
+      <p><a href="../investortop/inquiry_entry.php?command=new">お問い合わせ</a>はこちら</p>
 
     </div>
     </div><!--end row-->

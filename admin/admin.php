@@ -7,37 +7,71 @@ ob_start();
 	$username = "root";     // MySQL-ийн бааз руу хандах хэрэглэгчийн нэр
 	$password = ""; // MySQL-ийн бааз руу хандах нууц үг
 	$database = "test"; // Баазын нэр
-
+  $errors = "hahah";
 	// Өгөгдлийн сантай холбох объект үүсгэх
 	$conn = new mysqli($servername, $username, $password, $database);
-    $errors="Таньд энэ өдрийн мэнд хүргье.";
+
     if($_SERVER["REQUEST_METHOD"] == "POST") {
-        // email_address and password sent from form
-
-        $email_address = $_POST['email_address'];
-        $password = $_POST['password'];
-
-
-        $sql = "SELECT id FROM user1 WHERE email_address = '$email_address' and password = '$password'";
-        $result = $conn->query($sql);
-        $count = mysqli_num_rows($result);
-
-        // If result matched $myemail_address and $mypassword, table row must be 1 row
-
-        if($count == 1) {
-
-            $_SESSION['login_user'] = $email_address;
-            echo "<script type='text/javascript'>window.top.location='/nextshift/admin/admin.php';</script>"; exit;
-            $errors = "Ta amjilttai newterlee";
-
-        }else {
-            $errors = "Нэр эсвэл нууц үг тань таарахгүй байна";
+      //adding photo
+      $target_dir = "/nextshift/images/";
+      $target_file = $target_dir . basename($_FILES["photo"]["name"]);
+      $uploadOk = 1;
+      $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+      // Check if image file is a actual image or fake image
+          $check = getimagesize($_FILES["photo"]["tmp_name"]);
+          if($check !== false) {
+              echo "File is an image - " . $check["mime"] . ".";
+              $uploadOk = 1;
+          } else {
+              echo "File is not an image.";
+              $uploadOk = 0;
+          }
+      // Check if file already exists
+      if (file_exists($target_file)) {
+          echo "Таны оруулсан нэртэй file орсон байна.";
+          $uploadOk = 0;
+      }
+      // Check file size
+      if ($_FILES["photo"]["size"] > 900000) {
+          echo "Уучлаарай алдаа гарлаа таны зурагний хэмжээ хэтэрхий их байна.";
+          $uploadOk = 0;
+      }
+      // Allow certain file formats
+      if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+      && $imageFileType != "gif" && $imageFileType != "jpg") {
+          echo "Уучлаарай, Таний оруулсан зураг JPG, JPEG, PNG & GIF зөвхөн эдгээр өргөтгөлтэй байх ёстой.";
+          $uploadOk = 0;
+      }
+      // Check if $uploadOk is set to 0 by an error
+      if ($uploadOk == 0) {
+          echo "Sorry, your file was not uploaded.";
+      // if everything is ok, try to upload file
+      } else {
+          if (move_uploaded_file($_FILES["photo"]["tmp_name"], $target_file)) {
+              echo "The file ". basename( $_FILES["photo"]["name"]). " has been uploaded.";
+          } else {
+              echo "Sorry, there was an error uploading your file.";
+          }
+      }
+        echo $file_name = $_FILES["photo"]["name"];
+        if($file_name==''){
+            echo $file_name='noimage.jpg';
         }
 
+        $title = $_POST['title'];
+        $total_price = $_POST['total_price'];
+        $target_rate = $_POST['target_rate'];
+        $during_operation = $_POST['during_operation'];
+        $distribution = $_POST['distribution'];
+        $minimum_investment_amount = $_POST['minimum_investment_amount'];
+
+        $insertData = "INSERT INTO `funds`(title, totalPrice, profitRate, duringOperation, Distribution, investmentAmount, photo) VALUES ($title,$total_price,$target_rate,$during_operation,$distribution,$minimum_investment_amount,$file_name)";
+        $conn->query($insertData);
     }
 
     ?>
 <!DOCTYPE html>
+
 <html>
 
 <!-- Mirrored from nextshiftfund.jp/investortop/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Mar 2020 11:14:37 GMT -->
@@ -73,7 +107,8 @@ ob_start();
   <meta property="og:image" content="">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:description" content="">
-
+  <meta charset="utf-8">
+      <script src="https://cdn.ckeditor.com/4.11.3/standard/ckeditor.js"></script>
 
   <!-- UI Assets -->
   <link rel="stylesheet" type="text/css" href="../ui_assets/components/reset.css">
@@ -210,38 +245,71 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header>
 
   <div class="contents page-login">
-
-    <h1 class="ttl-h1 ttl--s1-b">ログイン</h1>
+    <h1 class="ttl-h1 ttl--s1-b">Form of Fund Details</h1>
 
     <div class="contents-inner ui stackable centered grid">
       <div class="ten wide column">
-        <form class="c_form form-register-temporary" method="post" autocomplete="off">
+        <form class="c_form form-register-temporary" method="post" autocomplete="off" enctype="multipart/form-data">
           <div class="c_input-form has-error">
-                <span class="message-error" id="erm.login"></span>
+              <span class="message-error" id="erm.login"></span>
           </div>
           <dl>
-            <dt class="align-top">メールアドレス</dt>
+            <dt class="align-top">Title:</dt>
             <dd>
               <div class="c_input-form ">
-                <input type="text" id="email_address" name="email_address" class="c_textfield" placeholder="welcome@xxx.jp" value="" required>
+                <input type="text" id="title" name="title" class="c_textfield" placeholder="Title of Fund" value="" required>
                 <span class="message-error"></span>
               </div>
             </dd>
-            <dt>パスワード</dt>
+            <dt>Total Price</dt>
             <dd>
               <div class="c_input-form ">
-                <input type="password" id="password" name="password" class="c_textfield" value="" required>
+                <input type="text" id="total_price" name="total_price" placeholder="How much fund u want" class="c_textfield" value="" required>
                 <span class="message-error" id="erm.password_confirm"></span>
               </div>
             </dd>
-          </dl>
+            <!--Target profit rate -->
+            <dt>Target profit rate</dt>
+            <dd>
+              <div class="c_input-form ">
+                <input type="text" id="target_rate" name="target_rate" placeholder="Target profit rate" class="c_textfield" value="" required>
+              </div>
+            </dd>
 
-          <div class="align-c">
-            <label for="enable_email_autofill" class="c_checkbox">
-              <input type="checkbox" id="enable_email_autofill" name="enable_email_autofill" value="true" ><i class="check-mark"></i>
-              <span>次回からメールアドレスの入力を省略</span>
-            </label>
-          </div>
+            <!--During Operation -->
+            <dt>During Operation</dt>
+            <dd>
+              <div class="c_input-form ">
+                <input type="text" id="during_operation" name="during_operation" placeholder="Target profit rate" class="c_textfield" value="" required>
+              </div>
+            </dd>
+
+            <!--Distribution -->
+            <dt>Distribution</dt>
+            <dd>
+              <div class="c_input-form ">
+                <input type="text" id="distribution" name="distribution" placeholder="Distribution" class="c_textfield" value="" required>
+              </div>
+            </dd>
+
+            <!--Target profit rate -->
+            <dt>Minimum investment amount</dt>
+            <dd>
+              <div class="c_input-form ">
+                <input type="text" id="minimum_investment_amount" name="minimum_investment_amount" placeholder="Minimum investment amount" class="c_textfield" value="" required>
+              </div>
+            </dd>
+
+            <!--Target profit rate -->
+            <dt>Photo</dt>
+            <dd>
+              <div class="c_input-form ">
+                <input type="file" id="photo" name="photo" placeholder="photo" class="c_textfield" value="" required>
+              </div>
+            </dd>
+
+          </dl>
+          <!-- button-->
           <div class="btn-submit">
             <input type="submit" class="c_btn primary size--m sp-default" value="ログイン">
           </div>
@@ -250,14 +318,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </nav>
           <b>
             <?php
-            echo $errors;
-            ?>
+              echo $errors;
+             ?>
             </b>
         </form>
 
       </div>
     </div>
-
+/////////////////////////////////
   </div>
 
   <!-- FOOTERが入ります -->
