@@ -18,14 +18,16 @@ ob_start();
       $uploadOk = 1;
       $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
       // Check if image file is a actual image or fake image
-          $check = getimagesize($_FILES["photo"]["tmp_name"]);
-          if($check !== false) {
-              echo "File is an image - " . $check["mime"] . ".";
-              $uploadOk = 1;
-          } else {
-              echo "File is not an image.";
-              $uploadOk = 0;
-          }
+      if(isset($_POST["submit"])){
+        $check = getimagesize($_FILES["photo"]["tmp_name"]);
+        if($check !== false) {
+            echo "File is an image - " . $check["mime"] . ".";
+            $uploadOk = 1;
+        } else {
+            echo "File is not an image.";
+            $uploadOk = 0;
+        }
+      }
       // Check if file already exists
       if (file_exists($target_file)) {
           echo "Таны оруулсан нэртэй file орсон байна.";
@@ -304,14 +306,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <dt>Photo</dt>
             <dd>
               <div class="c_input-form ">
-                <input type="file" id="photo" name="photo" placeholder="photo" class="c_textfield" value="" required>
+                <input type="file" id="photo" name="photo" placeholder="photo" class="c_textfield" value="12345" required>
               </div>
             </dd>
 
           </dl>
           <!-- button-->
           <div class="btn-submit">
-            <input type="submit" class="c_btn primary size--m sp-default" value="ログイン">
+            <input type="submit" name ="submit" class="c_btn primary size--m sp-default" value="ログイン">
           </div>
           <nav class="align-c">
             <a href="apply_reissue_password_entry.php?command=new" class="c_back-top">パスワードを忘れた方</a>
