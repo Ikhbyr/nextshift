@@ -1,77 +1,3 @@
-<?php
-ob_start();
-    session_start();
-?>
-<?php
-  $servername = "localhost"; // сервер комьютерийн хаяг буюу нэр
-	$username = "root";     // MySQL-ийн бааз руу хандах хэрэглэгчийн нэр
-	$password = ""; // MySQL-ийн бааз руу хандах нууц үг
-	$database = "test"; // Баазын нэр
-  $errors = "hahah";
-	// Өгөгдлийн сантай холбох объект үүсгэх
-	$conn = new mysqli($servername, $username, $password, $database);
-
-    if($_SERVER["REQUEST_METHOD"] == "POST") {
-      //adding photo
-      $target_dir = "/nextshift/images/";
-      $target_file = $target_dir . basename($_FILES["photo"]["name"]);
-      $uploadOk = 1;
-      $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-      // Check if image file is a actual image or fake image
-      if(isset($_POST["submit"])){
-        $check = getimagesize($_FILES["photo"]["tmp_name"]);
-        if($check !== false) {
-            echo "File is an image - " . $check["mime"] . ".";
-            $uploadOk = 1;
-        } else {
-            echo "File is not an image.";
-            $uploadOk = 0;
-        }
-      }
-      // Check if file already exists
-      if (file_exists($target_file)) {
-          echo "Таны оруулсан нэртэй file орсон байна.";
-          $uploadOk = 0;
-      }
-      // Check file size
-      if ($_FILES["photo"]["size"] > 900000) {
-          echo "Уучлаарай алдаа гарлаа таны зурагний хэмжээ хэтэрхий их байна.";
-          $uploadOk = 0;
-      }
-      // Allow certain file formats
-      if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-      && $imageFileType != "gif" && $imageFileType != "jpg") {
-          echo "Уучлаарай, Таний оруулсан зураг JPG, JPEG, PNG & GIF зөвхөн эдгээр өргөтгөлтэй байх ёстой.";
-          $uploadOk = 0;
-      }
-      // Check if $uploadOk is set to 0 by an error
-      if ($uploadOk == 0) {
-          echo "Sorry, your file was not uploaded.";
-      // if everything is ok, try to upload file
-      } else {
-          if (move_uploaded_file($_FILES["photo"]["tmp_name"], $target_file)) {
-              echo "The file ". basename( $_FILES["photo"]["name"]). " has been uploaded.";
-          } else {
-              echo "Sorry, there was an error uploading your file.";
-          }
-      }
-        echo $file_name = $_FILES["photo"]["name"];
-        if($file_name==''){
-            echo $file_name='noimage.jpg';
-        }
-
-        $title = $_POST['title'];
-        $total_price = $_POST['total_price'];
-        $target_rate = $_POST['target_rate'];
-        $during_operation = $_POST['during_operation'];
-        $distribution = $_POST['distribution'];
-        $minimum_investment_amount = $_POST['minimum_investment_amount'];
-
-        $insertData = "INSERT INTO `funds`(title, totalPrice, profitRate, duringOperation, Distribution, investmentAmount, photo) VALUES ($title,$total_price,$target_rate,$during_operation,$distribution,$minimum_investment_amount,$file_name)";
-        $conn->query($insertData);
-    }
-
-    ?>
 <!DOCTYPE html>
 
 <html>
@@ -251,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="contents-inner ui stackable centered grid">
       <div class="ten wide column">
-        <form class="c_form form-register-temporary" method="post" autocomplete="off" enctype="multipart/form-data">
+        <form action="process.php?action=addNews" class="c_form form-register-temporary" method="post" enctype="multipart/form-data">
           <div class="c_input-form has-error">
               <span class="message-error" id="erm.login"></span>
           </div>
