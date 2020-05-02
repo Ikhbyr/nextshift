@@ -57,11 +57,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* link Set
 ----------------------------------------------------*/
 a {
-  color: #4990E2;
+  color: rgb(86, 226, 73);
   text-decoration: underline;
 }
 a:hover {
-  color: #055DC3;
+  color: rgb(75, 195, 5);
   text-decoration: none;
 }
 

@@ -171,108 +171,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <i class="menu-opener"></i>
     </div>
   </header>
+  <?php
+  $servername = "localhost"; // сервер комьютерийн хаяг буюу нэр
+  $username = "root";     // MySQL-ийн бааз руу хандах хэрэглэгчийн нэр
+  $password = ""; // MySQL-ийн бааз руу хандах нууц үг
+  $database = "test"; // Баазын нэр
+  $errors = "hahah";
+// Өгөгдлийн сантай холбох объект үүсгэх
+  $conn = new mysqli($servername, $username, $password, $database);
 
+  if(isset($_POST["submit"])){
+      echo 'Amjilttai orloo';
+      $qry = "
+  SELECT * FROM `funds` WHERE id = '{$_POST['id']}'')
+      ";
+      if ($conn->query($qry) === true) {
+          echo 'Data updated';
+          echo "<script type='text/javascript'>window.top.location='updateSection.php';</script>";exit;
+      }else{
+          echo 'Data not updated';
+      }
+  }
+
+   ?>
   <div class="contents page-login">
     <h1 class="ttl-h1 ttl--s1-b">Form of Fund Details</h1>
 
     <div class="contents-inner ui stackable centered grid">
       <div class="ten wide column">
-        <form action="process.php?action=addNews" class="c_form form-register-temporary" method="post" enctype="multipart/form-data">
-          <div class="c_input-form has-error">
-              <span class="message-error" id="erm.login"></span>
+        <form action="updateSection.php" class="c_form form-register-temporary" method="post" enctype="multipart/form-data">
+          <div class="">
+            <div class="">
+              
+            </div>
           </div>
-          <!-- button-->
-          <div class="btn-submit">
-            <a href="update.php">
-              <input type="button" name ="update" class="c_btn primary size--m sp-default" value="Update">
-            </a>
-          </div>
-          <dl>
-            <dt class="align-top">Title:</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="title" name="title" class="c_textfield" placeholder="Title of Fund" value="" required>
-                <span class="message-error"></span>
-              </div>
-            </dd>
-            <!-- Total price-->
-            <dt>Total Price</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="total_price" name="total_price" placeholder="How much fund u want" class="c_textfield" value="" required>
-                <span class="message-error" id="erm.password_confirm"></span>
-              </div>
-            </dd>
-
-            <!-- Collected price-->
-            <dt>Collected Price</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="collected_price" name="collected_price" placeholder="How much money collected now?" class="c_textfield" value="" required>
-                <span class="message-error" id="erm.password_confirm"></span>
-              </div>
-            </dd>
-            <!--Target profit rate -->
-            <dt>Target profit rate</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="target_rate" name="target_rate" placeholder="Target profit rate" class="c_textfield" value="" required>
-              </div>
-            </dd>
-
-            <!--During Operation -->
-            <dt>During Operation</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="during_operation" name="during_operation" placeholder="Target profit rate" class="c_textfield" value="" required>
-              </div>
-            </dd>
-
-            <!--Distribution -->
-            <dt>Distribution</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="distribution" name="distribution" placeholder="Distribution" class="c_textfield" value="" required>
-              </div>
-            </dd>
-
-            <!--Minimum investment amount -->
-            <dt>Minimum investment amount</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="minimum_investment_amount" name="minimum_investment_amount" placeholder="Minimum investment amount" class="c_textfield" value="" required>
-              </div>
-            </dd>
-
-            <!--Percentage -->
-            <dt>Percentage</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="text" id="percentage" name="percentage" placeholder="Percentage" class="c_textfield" value="" required>
-              </div>
-            </dd>
-            <!--Target profit rate -->
-            <dt>Photo</dt>
-            <dd>
-              <div class="c_input-form ">
-                <input type="file" id="photo" name="photo" placeholder="photo" class="c_textfield" value="12345" required>
-              </div>
-            </dd>
-
-          </dl>
-          <!-- button-->
-          <div class="btn-submit">
-            <input type="submit" name ="submit" class="c_btn primary size--m sp-default" value="ログイン">
-          </div>
-          <nav class="align-c">
-            <a href="apply_reissue_password_entry.php?command=new" class="c_back-top">パスワードを忘れた方</a>
-          </nav>
         </form>
 
       </div>
     </div>
   </div>
+<style>
 
+</style>
   <!-- FOOTERが入ります -->
     <footer class="main-footer">
     <nav class="sp-footer-main-menu visible-sp">

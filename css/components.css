@@ -78,8 +78,8 @@
 }
 .c_btn.primary {
   color: #FFF;
-  background-image: linear-gradient(-180deg, #276490 0%, #0D3C73 100%);
-  box-shadow: 1px 2px 1px 0 #0A3364;
+  background-image: linear-gradient(-180deg, #279041 0%, rgb(13, 115, 21) 100%);
+  box-shadow: 1px 2px 1px 0 rgb(10, 100, 14);
 }
 .c_btn.primary:hover {
   color: #FFF;
@@ -87,10 +87,10 @@
 }
 .c_btn.secondary {
   position: relative;
-  color: #00497C;
+  color: #329d00;
   background-color: #FFF;
-  border: solid 1px #00497C;
-  box-shadow: 0 1px 1px 0 #093264;
+  border: solid 1px #329d00;
+  box-shadow: 0 1px 1px 0 #146409;
 }
 .c_btn.secondary.back:before {
   content: "<";
@@ -394,7 +394,7 @@ textarea.c_textfield { height: auto; }
   height: 14px;
   border-radius: 50%;
   margin-bottom: -14px;
-  background-color: #00497C;
+  background-color: #329d00;
 }
 .c_steps li.current ~ li:after {
   background-color: #979797;
@@ -406,7 +406,7 @@ textarea.c_textfield { height: auto; }
   left: 0;
   display: block;
   height: 2px;
-  background-color: #00497C;
+  background-color: #329d00;
 }
 @media screen and (max-width:599px) {
   .c_steps.three li.current:nth-child(1):before { width:  16.5%; }

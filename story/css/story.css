@@ -383,7 +383,7 @@
   font-weight: 700;
   font-family: YakuHanJPt, Roboto, "Noto Sans JP", sans-serif;
   line-height: 1.6 !important;
-  color: #00479d !important;
+  color: #329d00 !important;
 }
 
 @media screen and (min-width: 600px) {
@@ -421,7 +421,7 @@
   display: block;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  color: #00479d;
+  color: #329d00;
 }
 
 @media screen and (min-width: 600px) {
@@ -501,8 +501,8 @@
     padding: 12px 25px;
     transition: .3s;
     background: #fff;
-    border: 1px solid #00479d;
-    color: #00479d;
+    border: 1px solid #329d00;
+    color: #329d00;
   }
   .story_btn:after {
     position: absolute;
@@ -518,7 +518,7 @@
   }
   .story_btn:hover {
     color: #fff;
-    background: #00479d;
+    background: #329d00;
   }
   .story_btn:hover:after {
     background: url("../images/common/arrow_white.png") no-repeat center/cover;
@@ -531,7 +531,7 @@
     margin: 2.66666667vw auto;
     padding: 5.33333333vw 6.66666667vw;
     color: #fff;
-    background: #00479d;
+    background: #329d00;
   }
   .story_btn:after {
     position: absolute;
@@ -1074,7 +1074,7 @@
 
 .contents_right_title {
   font-weight: 700;
-  color: #00479d !important;
+  color: #329d00 !important;
 }
 
 @media screen and (min-width: 600px) {

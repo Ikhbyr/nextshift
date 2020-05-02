@@ -181,12 +181,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="c_input-form has-error">
               <span class="message-error" id="erm.login"></span>
           </div>
-          <!-- button-->
-          <div class="btn-submit">
-            <a href="update.php">
-              <input type="button" name ="update" class="c_btn primary size--m sp-default" value="Update">
-            </a>
-          </div>
           <dl>
             <dt class="align-top">Title:</dt>
             <dd>

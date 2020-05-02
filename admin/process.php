@@ -61,14 +61,26 @@
     if($action == 'addNews'){
         echo 'Amjilttai orloo';
         $qry = "
-            insert into funds(title, totalPrice, profitRate, duringOperation, distribution, investmentAmount, photo)
-            values ('{$_POST['title']}','{$_POST['total_price']}','{$_POST['target_rate']}','{$_POST['during_operation']}','{$_POST['distribution']}','{$_POST['minimum_investment_amount']}','{$file_name}')
+        INSERT INTO `funds`(`title`, `totalPrice`, `collectedPrice`, `profitRate`, `duringOperation`, `Distribution`, `investmentAmount`, `photo`,`percentage`) VALUES (
+'{$_POST['title']}','{$_POST['total_price']}', '{$_POST['collected_price']}','{$_POST['target_rate']}','{$_POST['during_operation']}','{$_POST['distribution']}','{$_POST['minimum_investment_amount']}','{$file_name}','{$_POST['percentage']}')
         ";
         if ($conn->query($qry) === true) {
             echo 'Amjilttai orloo';
             echo "<script type='text/javascript'>window.top.location='admin.php';</script>";exit;
         }else{
             echo $conn->error;
+        }
+    }
+    if($action == 'update'){
+        echo 'Amjilttai orloo';
+        $qry = "
+    SELECT * FROM `funds` WHERE id = '{$_POST['id']}'')
+        ";
+        if ($conn->query($qry) === true) {
+            echo 'Data updated';
+            echo "<script type='text/javascript'>window.top.location='updateSection.php';</script>";exit;
+        }else{
+            echo 'Data not updated';
         }
     }
 ?>

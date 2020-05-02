@@ -47,13 +47,13 @@
   .ttl-h1 {
     color: #FFF;
     /*background-color: #00497C;*/  /*osaki*/
-    background-color: #00469b;  /*osaki*/
+    background-color: #329d00;  /*osaki*/
     padding: 10px 20px;
     margin-bottom: 10px;
   }
   .ttl-h2 {
     /*background-color: #00497C;*/  /*osaki*/
-    background-color: #00469b;  /*osaki*/
+    background-color: #329d00;  /*osaki*/
     padding-left: 10px;
   }
 
@@ -88,14 +88,14 @@
   .ttl-h1 {
     color: #FFF;
     /*background-color: #00497C;*/  /*osaki*/
-    background-color: #00469b;  /*osaki*/
+    background-color: #329d00;  /*osaki*/
     padding: 15px 20px;
     margin-bottom: 25px;
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
   }
   .ttl-h2 {
     /*border-left: solid 5px #00497C;*/  /*osaki*/
-    border-left: solid 5px #00469b;  /*osaki*/
+    border-left: solid 5px #329d00;  /*osaki*/
     padding-left: 10px;
   }
 

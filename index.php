@@ -245,15 +245,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   echo "<div class='invest-type'>マイクロファイナンス</div>";
                   echo "<h2 class='fund-name' name='title'>".$row['title']."</h2>";
                 echo "<div class='box-l'>";
-                  echo "<img src='investment/fund_detail/35/fund_image.gif' width='470' height='300' alt='モンゴル農家さん応援ファンド５号のファンドイメージ' class='flexible-img'>";
+                  echo "<img src='images/".$row['photo']."' width='470' height='300' alt='".$row['photo']."' class='flexible-img'>";
                 echo "</div>";
 
                 echo "<div class='box-r'>";
-                  echo "<p class='top-total'>応募金額<span>¥".$row['totalPrice']."</span></p>";
-                  echo "<p class='top-recruiting'>募集金額 ¥12,000,000（最低投資金額 ¥20,000～）</p>";
+                  echo "<p class='top-total'>応募金額<span>¥".$row['collectedPrice']."</span></p>";
+                  echo "<p class='top-recruiting'>募集金額 ¥".$row['totalPrice']."（最低投資金額 ¥".$row['investmentAmount']."～）</p>";
                   echo "<div class='fund-progress keep-on'>";
-                    echo "<span class='percentage-number'>応募金額 ¥8,320,000（69%）</span>";
-                    echo "<span class='progress-bar'><i class='percentage-bar' style='width:69%;'></i></span>";
+                    echo "<span class='percentage-number'>応募金額 ¥".$row['collectedPrice']."（".$row['percentage']."%）</span>";
+                    echo "<span class='progress-bar'><i class='percentage-bar' style='width:".$row['percentage']."%;'></i></span>";
                   echo "</div>";
 
                   echo "<table class='tbl-gsp01'>";

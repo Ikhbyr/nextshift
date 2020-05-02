@@ -4,7 +4,7 @@
 ----------------------------------------------------*/
 /*水色のボタン*/
 .fd-btn-light-blue {
-  background-color: #16BAC5;
+  background-color: rgb(22, 197, 45);
   border-radius: 4px;
 }
 .fd-btn-light-blue a {
@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 .fd-btn-light-blue:hover {
-  background-color: #1799a2;
+  background-color: #17a21e;
 
 }
 /*青色のボタン*/
@@ -35,7 +35,7 @@
   color: #fff;
   font-weight: bold;
   text-decoration: none;
-  background-color: #00469B;
+  background-color: rgb(57, 155, 0);
 }
 .fd-btn-blue a:hover {
   opacity: 0.85;
@@ -98,7 +98,7 @@
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
-  color: #00469b;
+  color: #009b08;
   font-weight: bold;
 }
 .ttl-top2 span {
@@ -121,7 +121,7 @@
   height: 26px;
   position: absolute;
   left: 0;
-  background-color: #00469B;
+  background-color: rgb(5, 155, 0);
 }
 @media screen and (max-width:599px) {
   .start-guide-contents .ttl-top3 {
@@ -133,7 +133,7 @@
 ----------------------------------------------------*/
 .fd-service-status {
   width: 100%;
-  background-color: #00469B;
+  background-color: rgba(9, 197, 9, 0.829);
   display: table;
 }
 .fd-service-money,.fd-service-member {
@@ -165,7 +165,7 @@
     display: table-cell;
     width: 100px;
     white-space: nowrap;
-    background-color: #002D6D;
+    background-color: rgb(4, 109, 0);
     text-align: right;
   }
 }
@@ -181,11 +181,11 @@
   .fd-service-member {
     display: block;
     font-size: 12px;
-    background-color: #002D6D;
+    background-color: rgb(4, 109, 0);
     text-align: right;
   }
 }
-  
+
 /*スライダー設定
 ----------------------------------------------------*/
 .fd-slider li {

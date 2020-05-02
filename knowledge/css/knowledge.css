@@ -352,7 +352,7 @@
 
 .knowledge_hero {
   background: url("../images/common/knwlg_hero_bg.png") top left/16px;
-  border-bottom: 4px solid #00479d;
+  border-bottom: 4px solid #009d0d;
 }
 
 @media screen and (min-width: 600px) {
@@ -488,8 +488,8 @@
     padding: 12px 25px;
     transition: .3s;
     background: #fff;
-    border: 1px solid #00479d;
-    color: #00479d;
+    border: 1px solid #009d0d;
+    color: #009d0d;
   }
   .knowledge_btn:after {
     position: absolute;
@@ -505,7 +505,7 @@
   }
   .knowledge_btn:hover {
     color: #fff;
-    background: #00479d;
+    background: #009d0d;
   }
   .knowledge_btn:hover:after {
     background: url("../images/common/arrow_white.png") no-repeat center/cover;
@@ -518,7 +518,7 @@
     margin: 2.66666667vw auto;
     padding: 5.33333333vw 6.66666667vw;
     color: #fff;
-    background: #00479d;
+    background: #009d0d;
   }
   .knowledge_btn:after {
     position: absolute;
@@ -1134,7 +1134,7 @@
 }
 
 ._border-1px-blue {
-  border: 1px solid #00479d;
+  border: 1px solid #009d0d;
 }
 
 ._border-1px-pink {
@@ -1142,7 +1142,7 @@
 }
 
 ._border-1px-lightblue {
-  border: 1px solid #3ca5fa;
+  border: 1px solid #3cfa75;
 }
 
 ._border-1px-green {
@@ -1182,7 +1182,7 @@
 }
 
 ._textColor-blue {
-  color: #00479d !important;
+  color: #009d0d !important;
 }
 
 ._textColor-pink {
@@ -1190,7 +1190,7 @@
 }
 
 ._textColor-lightblue {
-  color: #3ca5fa !important;
+  color: #3cfa45 !important;
 }
 
 ._textColor-green {
@@ -1206,7 +1206,7 @@
 }
 
 ._bg-primary-blue {
-  background: #00479d;
+  background: #009d0d;
 }
 
 ._bg-primary-pink {
@@ -1214,7 +1214,7 @@
 }
 
 ._bg-primary-lightblue {
-  background: #3ca5fa;
+  background: #3cfa5c;
 }
 
 ._bg-primary-green {
